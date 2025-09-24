@@ -16,7 +16,7 @@ ht-degree: 0%
 >O Audience Agent está disponível para todos os clientes que têm acesso ao AI Assistant. No entanto, você precisará das seguintes permissões para usar totalmente os recursos do Audience Agent.
 >
 >**Exibir segmentos**: essa permissão permite que você use a Audience Agent para exibir insights sobre os públicos diretamente no Assistente de IA.
->>**Gerenciar segmentos**: a permissão Para permite que você use a Audience Agent para criar novos públicos-alvo diretamente no Assistente de IA.
+>&#x200B;>**Gerenciar segmentos**: a permissão Para permite que você use a Audience Agent para criar novos públicos-alvo diretamente no Assistente de IA.
 
 O Audience Agent permite exibir insights sobre públicos-alvo, incluindo a detecção de alterações significativas no tamanho do público-alvo, a detecção de públicos-alvo duplicados, a exploração do inventário do público-alvo e a recuperação do tamanho deles.
 
