@@ -1,7 +1,7 @@
 ---
 title: Audience Agent
 description: Saiba como usar o Audience Agent para criar públicos, exibir alterações de público, detectar públicos duplicados e exibir insights do público.
-source-git-commit: 6d1f6a8c6a97bbbad88c0dd8123fac7821f06754
+source-git-commit: d91aac948a6fef36949218004dc0481dc8f5cf7f
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >O Audience Agent está disponível para todos os clientes que têm acesso ao AI Assistant. No entanto, você precisará das seguintes permissões para usar totalmente os recursos do Audience Agent.
 >
 >**Exibir segmentos**: essa permissão permite que você use a Audience Agent para exibir insights sobre os públicos diretamente no Assistente de IA.
->&#x200B;>**Gerenciar segmentos**: a permissão Para permite que você use a Audience Agent para criar novos públicos-alvo diretamente no Assistente de IA.
+>>**Gerenciar segmentos**: a permissão Para permite que você use a Audience Agent para criar novos públicos-alvo diretamente no Assistente de IA.
 
 O Audience Agent permite exibir insights sobre públicos-alvo, incluindo a detecção de alterações significativas no tamanho do público-alvo, a detecção de públicos-alvo duplicados, a exploração do inventário do público-alvo e a recuperação do tamanho deles.
 
@@ -33,7 +33,7 @@ O Audience Agent no Assistente de IA é compatível com os seguintes casos de us
 - Descobrir campos XDM que podem ser usados para definir um público
    - Essa habilidade permite identificar mais facilmente os campos certos a serem usados no público com base no contexto e na relevância
 
-Atualmente, o Audience Agent **não** oferece suporte aos seguintes recursos:
+A Audience Agent não **oferece suporte atualmente** aos seguintes recursos:
 
 - Criação de público-alvo com base no conhecimento
    - A criação de público-alvo com base no conhecimento é criar um público-alvo com base nos atributos e eventos fornecidos
