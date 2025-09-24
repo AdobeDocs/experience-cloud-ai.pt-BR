@@ -1,9 +1,9 @@
 ---
 title: IA em aplicativos Experience Cloud
 description: Saiba como os aplicativos do Experience Cloud usam IA gerativa (GenAI), AI Assistant e IA agêntica.
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: 58cce845f525e7762f32379a8db5791b677ae54f
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -59,10 +59,9 @@ Disponível no Customer Journey Analytics, este agente:
 
 Permite que os usuários do Journey Optimizer:
 
-- Criar, analisar e otimizar jornadas usando linguagem natural
+- Analisar e otimizar jornadas usando linguagem natural
 - Detectar e resolver conflitos de agendamento ou público
 - Analisar desempenho e pontos de devolução
-- Identificar jornadas de melhor desempenho para replicação
 
 #### Agente de suporte ao produto
 
