@@ -1,24 +1,31 @@
 ---
-title: Visão geral e guia do usuário do Journey Agent Analyze Skill
+title: Visão geral e guia do usuário do Jornada Analyze Agent Skill
 description: Guia abrangente para as habilidades do Journey Agent Analyze, permitindo que os usuários analisem jornadas de marketing, detectem problemas, descubram insights e otimizem o engajamento do cliente.
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-hide: true
-hidefromtoc: true
-source-git-commit: 3bab2928fba6d06785797630e405b216cc080fd2
+source-git-commit: 56dbe826fc73cbf699f08b12014b2b73d2bab71b
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
 
-# Journey Agent Analyze: visão geral de habilidades e guia do usuário
+# Jornada Analyze Agent: visão geral e guia do usuário da habilidade
 
 ## Visão geral
 
-O Journey Agent permitirá que os usuários do Journey Optimizer criem, analisem e otimizem jornadas usando uma interface de linguagem natural. Com o Journey Agent, os profissionais podem criar jornadas rapidamente, detectar e resolver conflitos de agendamento ou público-alvo, analisar o desempenho e os pontos de queda e identificar jornadas de melhor desempenho a serem replicadas para campanhas futuras. Ele capacita os profissionais a tomar decisões orientadas por dados, melhorar o envolvimento do cliente e simplificar a orquestração de jornadas.
+O Journey Agent permitirá que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com o Journey Agent, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e/ou público-alvo, detectar pontos de abandono de usuários em uma jornada e fornecer insights ou recomendações. Ele capacita os profissionais a tomar decisões orientadas por dados, melhorar o envolvimento do cliente e simplificar a orquestração de jornadas.
+
+>[!AVAILABILITY]
+>
+>O Journey Agent está disponível para todos os clientes que têm acesso ao AI Assistant. No entanto, você precisará das seguintes permissões para usar totalmente os recursos do Journey Agent.
+>
+>**Exibir Jornadas**: essa permissão permite que você use a Journey Agent para exibir insights sobre a jornada diretamente no Assistente de IA.
+>>**Gerenciar Jornadas**: a permissão Para permite que você use a Journey Agent para criar novas jornadas diretamente no Assistente de IA.
+>>**Exibir segmentos**: essa permissão permite que você use a Journey Agent para exibir insights sobre os públicos-alvo diretamente no Assistente de IA.
+>>**Gerenciar segmentos**: a permissão Para permite que você use a Journey Agent para criar novos públicos-alvo diretamente no Assistente de IA.
 
 ![Amostra para o AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -50,6 +57,8 @@ A habilidade do Journey Agent Analyze oferece uma variedade de funcionalidades q
 
    - Insights do Jornada com base em prompts - Surja insights operacionais sobre o jornada, ou seja, &quot;mostrar todas as jornadas ativas para mim&quot;.
 
+Para cada uma dessas análises, o agente não apenas detecta problemas, mas também fornece **recomendações acionáveis para resolvê-los**.
+
 
 ## Habilidades dentro e fora do escopo
 
@@ -59,6 +68,7 @@ Os seguintes recursos são compatíveis com o Journey Agent Analyze:
 
 - **Consultas reativas**: permite que os usuários façam perguntas específicas sobre o desempenho da jornada, o uso do público-alvo e os conflitos de agendamento.
 - **Integração com outros agentes**: colabora com a Audience Agent e a Data Insights Agent para uma análise mais profunda.
+- **Estrutura de resposta do agente**: raciocínio (explique a lógica), resumo da análise (destaque os pontos principais), detalhes do problema (descreva o problema) e recomendação (proponha as próximas etapas).
 
 ### **Fora de escopo**
 
@@ -92,6 +102,10 @@ Estes são exemplos de prompts valiosos que os usuários podem utilizar para exp
 
 - &quot;Quais públicos-alvo são usados em mais de X jornadas?&quot;
 - &quot;Liste todas as jornadas usando o [nome do público-alvo].&quot;
+
+### Análise de fallout
+
+
 
 ### Prompts da Análise de Conflito
 
