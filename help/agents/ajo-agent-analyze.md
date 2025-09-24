@@ -4,9 +4,9 @@ description: Guia abrangente para as habilidades do Journey Agent Analyze, permi
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 56dbe826fc73cbf699f08b12014b2b73d2bab71b
+source-git-commit: cf29a28477881b400b32b4623ccff2e626010e10
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ O Journey Agent permitirá que os usuários do Journey Optimizer analisem e otim
 >O Journey Agent está disponível para todos os clientes que têm acesso ao AI Assistant. No entanto, você precisará das seguintes permissões para usar totalmente os recursos do Journey Agent.
 >
 >**Exibir Jornadas**: essa permissão permite que você use a Journey Agent para exibir insights sobre a jornada diretamente no Assistente de IA.
->&#x200B;>**Gerenciar Jornadas**: a permissão Para permite que você use a Journey Agent para criar novas jornadas diretamente no Assistente de IA.
->&#x200B;>**Exibir segmentos**: essa permissão permite que você use a Journey Agent para exibir insights sobre os públicos-alvo diretamente no Assistente de IA.
->&#x200B;>**Gerenciar segmentos**: a permissão Para permite que você use a Journey Agent para criar novos públicos-alvo diretamente no Assistente de IA.
+>>**Gerenciar Jornadas**: a permissão Para permite que você use a Journey Agent para criar novas jornadas diretamente no Assistente de IA.
+>>**Exibir segmentos**: essa permissão permite que você use a Journey Agent para exibir insights sobre os públicos-alvo diretamente no Assistente de IA.
+>>**Gerenciar segmentos**: a permissão Para permite que você use a Journey Agent para criar novos públicos-alvo diretamente no Assistente de IA.
 
 ![Amostra para o AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -105,7 +105,10 @@ Estes são exemplos de prompts valiosos que os usuários podem utilizar para exp
 
 ### Análise de fallout
 
-
+- &quot;Quero analisar o fallout por nó para a Campanha do jornada de 4 de julho.&quot;
+- &quot;Execute uma análise de fallout para a Campanha do jornada de 4 de julho.&quot;
+- &quot;O que é perda de perfil ao longo da Campanha de 4 de julho do jornada?&quot;
+- &quot;Mostrar onde os usuários estão saindo na Campanha do jornada de 4 de julho.&quot;
 
 ### Prompts da Análise de Conflito
 
