@@ -1,7 +1,7 @@
 ---
 title: Audience Agent
 description: Saiba como usar o Audience Agent para criar públicos, exibir alterações de público, detectar públicos duplicados e exibir insights do público.
-source-git-commit: d91aac948a6fef36949218004dc0481dc8f5cf7f
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -16,7 +16,8 @@ ht-degree: 0%
 >O Audience Agent está disponível para todos os clientes que têm acesso ao AI Assistant. No entanto, você precisará das seguintes permissões para usar totalmente os recursos do Audience Agent.
 >
 >**Exibir segmentos**: essa permissão permite que você use a Audience Agent para exibir insights sobre os públicos diretamente no Assistente de IA.
->&#x200B;>**Gerenciar segmentos**: a permissão Para permite que você use a Audience Agent para criar novos públicos-alvo diretamente no Assistente de IA.
+>
+>**Gerenciar segmentos**: a permissão Para permite que você use a Audience Agent para criar novos públicos diretamente no Assistente de IA.
 
 O Audience Agent permite exibir insights sobre públicos-alvo, incluindo a detecção de alterações significativas no tamanho do público-alvo, a detecção de públicos-alvo duplicados, a exploração do inventário do público-alvo e a recuperação do tamanho deles.
 
@@ -25,27 +26,39 @@ O Audience Agent permite exibir insights sobre públicos-alvo, incluindo a detec
 O Audience Agent no Assistente de IA é compatível com os seguintes casos de uso:
 
 - Encontre o tamanho do seu público e detecte alterações significativas no tamanho do público
+
    - Isso permite encontrar públicos que subitamente cresceram ou diminuíram, permitindo que você analise melhor as possíveis alterações de mercado
+
 - Detectar públicos-alvo duplicados
+
    - Isso permite reduzir as redundâncias com os públicos criados
+
 - Encontre públicos-alvo com base em atributos completos ou parciais chamados
+
    - Isso facilita a navegação pelo inventário de público-alvo
+
 - Descobrir campos XDM que podem ser usados para definir um público
+
    - Essa habilidade permite identificar mais facilmente os campos certos a serem usados no público com base no contexto e na relevância
 
 A Audience Agent não **oferece suporte atualmente** aos seguintes recursos:
 
 - Criação de público-alvo com base no conhecimento
+
    - A criação de público-alvo com base no conhecimento é criar um público-alvo com base nos atributos e eventos fornecidos
    - Além disso, é possível estimar o tamanho potencial do público-alvo antes da criação. Isso permite iterar rapidamente no público-alvo mais eficiente antes que esteja pronto para ativação
    - O suporte para esse recurso será lançado em breve
+
 - Exploração de público-alvo com base em metas
+
    - A exploração de público-alvo com base em metas permite descobrir conjuntos de dados e perfis relevantes alinhados a uma meta comercial aplicando modelos de aprendizado de máquina, como propensão para comprar ou converter.
 
 Além disso, ao usar o Audience Agent, você deve ter as seguintes restrições em mente:
 
 - O Audience Agent precisa de pelo menos 24 horas para processar seus dados
+
    - Por exemplo, você **não pode** ter uma consulta que procura dados nas últimas 24 horas. Você terá que olhar dentro das últimas 48 horas, no mínimo.
+
 - O Audience Agent só oferece suporte a **pessoas**, com base em públicos avaliados por meio da segmentação em lote
 
 ## Exemplos de prompts

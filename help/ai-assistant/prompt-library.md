@@ -1,7 +1,7 @@
 ---
 title: Biblioteca de prompts do assistente do AI
 description: Saiba mais sobre os diferentes tipos de prompts e padrões de prompt que você pode usar ao consultar o Assistente de IA.
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%

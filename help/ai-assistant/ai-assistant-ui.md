@@ -1,7 +1,7 @@
 ---
 title: Guia da interface do assistente de IA
 description: Saiba como acessar e usar o Assistente de IA na interface.
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 0%
@@ -57,12 +57,12 @@ A interface do Assistente de IA inclui vários elementos-chave para ajudá-lo a 
 A visualização do painel fornece acesso rápido a bate-papo, prompts de descoberta, atualizações, conversas e controles de interface em um painel compacto.
 
 1. **[!UICONTROL Chat]**: selecione **[!UICONTROL Chat]** no cabeçalho para retornar à sua conversa no caso de você deixar para acessar elementos diferentes na interface.
-2. **[!UICONTROL Descoberta]**: selecione **[!UICONTROL Descoberta]** para exibir uma lista de prompts do Assistente de IA organizados por categoria. Você pode usar esses prompts pré-configurados para preencher o bate-papo. Além disso, você pode ajustar os prompts sugeridos para atender ao seu caso de uso específico.
-3. **[!UICONTROL Novidades]**: selecione **[!UICONTROL Novidades]** para exibir uma lista das atualizações mais recentes disponíveis para o Assistente de IA.
-4. **[!UICONTROL Conversas]**: selecione o ícone **[!UICONTROL Conversas]** para iniciar uma nova conversa e acessar conversas recentes do seu histórico. Para obter mais informações, leia a seção sobre [conversas](#conversations).
-5. **Modo de exibição de tela cheia**: selecione o ícone **[!UICONTROL Modo de exibição de tela cheia]** para alterar a interface do Assistente do AI do painel direito para o modo de tela cheia.
-6. **Preenchimento automático de dados e objetos**: selecione o ícone de adição para usar sugestão de dados e objetos e preenchimento automático. Quando selecionada, você pode usar uma janela pop-up para selecionar entidades sugeridas. Para obter mais informações, leia a seção sobre [preenchimento automático de dados e objetos](#autocomplete).
-7. **Configuração de contexto**: selecione o ícone de Configuração de contexto para configurar fontes de informações para o Assistente de IA. Você pode usar essa ferramenta para configurar o aplicativo, a sandbox e a visualização de dados que o Assistente do AI faz referência para responder à sua consulta. Para obter mais informações, leia a seção sobre [configuração de contexto](#context-setting).
+1. **[!UICONTROL Descoberta]**: selecione **[!UICONTROL Descoberta]** para exibir uma lista de prompts do Assistente de IA organizados por categoria. Você pode usar esses prompts pré-configurados para preencher o bate-papo. Além disso, você pode ajustar os prompts sugeridos para atender ao seu caso de uso específico.
+1. **[!UICONTROL Novidades]**: selecione **[!UICONTROL Novidades]** para exibir uma lista das atualizações mais recentes disponíveis para o Assistente de IA.
+1. **[!UICONTROL Conversas]**: selecione o ícone **[!UICONTROL Conversas]** para iniciar uma nova conversa e acessar conversas recentes do seu histórico. Para obter mais informações, leia a seção sobre [conversas](#conversations).
+1. **Modo de exibição de tela cheia**: selecione o ícone **[!UICONTROL Modo de exibição de tela cheia]** para alterar a interface do Assistente do AI do painel direito para o modo de tela cheia.
+1. **Preenchimento automático de dados e objetos**: selecione o ícone de adição para usar sugestão de dados e objetos e preenchimento automático. Quando selecionada, você pode usar uma janela pop-up para selecionar entidades sugeridas. Para obter mais informações, leia a seção sobre [preenchimento automático de dados e objetos](#autocomplete).
+1. **Configuração de contexto**: selecione o ícone de Configuração de contexto para configurar fontes de informações para o Assistente de IA. Você pode usar essa ferramenta para configurar o aplicativo, a sandbox e a visualização de dados que o Assistente do AI faz referência para responder à sua consulta. Para obter mais informações, leia a seção sobre [configuração de contexto](#context-setting).
 
 ![O Assistente de IA no modo de exibição de painel](./images/ai-assistant/rail-mode.png)
 

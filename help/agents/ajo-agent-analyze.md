@@ -4,7 +4,7 @@ description: Guia abrangente para as habilidades do Journey Agent Analyze, permi
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: cf29a28477881b400b32b4623ccff2e626010e10
+source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 0%
@@ -23,9 +23,12 @@ O Journey Agent permitirá que os usuários do Journey Optimizer analisem e otim
 >O Journey Agent está disponível para todos os clientes que têm acesso ao AI Assistant. No entanto, você precisará das seguintes permissões para usar totalmente os recursos do Journey Agent.
 >
 >**Exibir Jornadas**: essa permissão permite que você use a Journey Agent para exibir insights sobre a jornada diretamente no Assistente de IA.
->&#x200B;>**Gerenciar Jornadas**: a permissão Para permite que você use a Journey Agent para criar novas jornadas diretamente no Assistente de IA.
->&#x200B;>**Exibir segmentos**: essa permissão permite que você use a Journey Agent para exibir insights sobre os públicos-alvo diretamente no Assistente de IA.
->&#x200B;>**Gerenciar segmentos**: a permissão Para permite que você use a Journey Agent para criar novos públicos-alvo diretamente no Assistente de IA.
+>
+>**Gerenciar Jornadas**: a permissão Para permite que você use a Journey Agent para criar novas jornadas diretamente no Assistente do AI.
+>
+>**Exibir segmentos**: essa permissão permite que você use a Journey Agent para exibir insights sobre os públicos diretamente no Assistente de IA.
+>
+>**Gerenciar segmentos**: a permissão Para permite que você use a Journey Agent para criar novos públicos diretamente no Assistente de IA.
 
 ![Amostra para o AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -140,7 +143,6 @@ Use estes prompts para analisar possíveis conflitos entre jornadas, incluindo a
 - &quot;Analisar o risco de conflito da jornada [Nome da Jornada].&quot;
 - &quot;Forneça diagnósticos de conflito para [Nome da Jornada].&quot;
 
-
 ## Práticas recomendadas
 
 ### Solicitação de práticas recomendadas
@@ -150,7 +152,6 @@ Para maximizar a eficácia do Journey Agent Analyze, siga estas práticas recome
 1. **Seja específico**: use prompts claros e concisos para obter insights direcionados. Por exemplo, em vez de perguntar &quot;Quais são minhas jornadas?&quot;, especifique &quot;Listar todas as jornadas criadas no último mês&quot;.
 1. **Combinar insights**: integre insights do Audience Agent e do Data Insights Agent para obter uma visão holística do desempenho do jornada.
 1. **Refinamento iterativo**: use o fallout e a análise de sobreposição para refinar iterativamente o design e o agendamento da jornada.
-
 
 ### Configurar práticas recomendadas
 
