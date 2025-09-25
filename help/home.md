@@ -1,7 +1,7 @@
 ---
 title: IA em aplicativos Experience Cloud
 description: Saiba como os aplicativos do Experience Cloud usam IA gerativa (GenAI), AI Assistant e IA agêntica.
-source-git-commit: b5649a893afc212a826b1ec2acb5ee2957caa03d
+source-git-commit: 06d80a7166dd9506cec570a79ed5eba4c2b5fe3c
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -107,3 +107,4 @@ O Assistente de IA é criado com privacidade, segurança e governança na vangua
 - Envie feedback sobre problemas ou imprecisões
 
 Este guia fornece tudo o que você precisa para usar com eficiência os recursos de IA em seus aplicativos da Experience Cloud, desde interações básicas até a orquestração avançada de agentes e fluxos de trabalho especializados.
+
