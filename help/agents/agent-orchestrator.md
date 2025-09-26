@@ -1,7 +1,7 @@
 ---
 title: Adobe Experience Platform Agent Orchestrator
 description: Saiba mais sobre o Adobe Experience Platform Agent Orchestrator.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
@@ -37,10 +37,10 @@ O mecanismo de raciocínio interpreta suas metas com base em seus prompts de lin
 | Agente | Detalhes | Aplicativos compatíveis |
 | --- | --- | --- |
 | [Audience Agent](audience.md) | O Audience Agent permite exibir insights sobre públicos-alvo, incluindo a detecção de alterações significativas no tamanho do público-alvo, a detecção de públicos-alvo duplicados, a exploração do inventário do público-alvo e a recuperação do tamanho dele. | <ul><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li></ul> |
-| [Data Insights Agent](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | O Data Insights Agent, acessível pelo Assistente de IA na Customer Journey Analytics, é um agente de conversação de IA generativo que responde de forma rápida e eficiente a perguntas sobre seus dados. Ele cria visualizações relevantes no Analysis Workspace usando componentes da visualização de dados e usando seus dados reais. | Customer Journey Analytics |
+| [Data Insights Agent](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/data-analysis-ai) | O Data Insights Agent, acessível pelo Assistente de IA na Customer Journey Analytics, é um agente de conversação de IA generativo que responde de forma rápida e eficiente a perguntas sobre seus dados. Ele cria visualizações relevantes no Analysis Workspace usando componentes da visualização de dados e usando seus dados reais. | Customer Journey Analytics |
 | Agente de experimentação | O agente de experimentação ajuda as equipes a aprender mais rápido analisando os resultados dos experimentos, prevendo o impacto e propondo novos experimentos. Ele centraliza experimentos passados e ativos para que você possa aproveitar o que já aprendeu, detectar lacunas e priorizar o que testar a seguir. | Adobe Journey Optimizer Experimentation Accelerator |
 | [Journey Agent](./ajo-agent-analyze.md) | O Journey Agent permite que os usuários do Adobe Journey Optimizer criem, analisem e otimizem jornadas usando uma interface de linguagem natural. Com o Journey Agent, você pode criar jornadas rapidamente, detectar e resolver conflitos de agendamento ou público-alvo, analisar pontos de desempenho e queda e identificar jornadas de melhor desempenho a serem replicadas para campanhas futuras. Ele ajuda você a tomar decisões orientadas por dados, melhorar o envolvimento do cliente e simplificar a orquestração de jornadas. | Adobe Journey Optimizer |
-| [Agente de Suporte ao Produto](https://experienceleague.adobe.com/pt-br/docs/experience-platform/ai-assistant/new-features/customer-support) | O Agente de suporte ao produto é um recurso de depuração e solução de problemas de autoatendimento que ajuda a solucionar problemas de recursos e aplicativos do Adobe Experience Platform sem sair dos fluxos de trabalho. Os administradores de suporte podem criar tíquetes de suporte ao cliente com contexto das interações do Assistente de IA e você pode verificar as atualizações de tíquetes por meio do Assistente de IA. | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
+| [Agente de Suporte ao Produto](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/new-features/customer-support) | O Agente de suporte ao produto é um recurso de depuração e solução de problemas de autoatendimento que ajuda a solucionar problemas de recursos e aplicativos do Adobe Experience Platform sem sair dos fluxos de trabalho. Os administradores de suporte podem criar tíquetes de suporte ao cliente com contexto das interações do Assistente de IA e você pode verificar as atualizações de tíquetes por meio do Assistente de IA. | <ul><li>Adobe Experience Platform</li><li>Real-Time CDP</li><li>Adobe Journey Optimizer</li><li>Adobe Journey Optimizer B2B edition</li><li>Customer Journey Analytics</li><li>Adobe Experience Manager</li></ul> |
 
 ### Knowledge base {#knowledge-base}
 
@@ -54,10 +54,11 @@ Para obter acesso à interface conversacional do Assistente de IA e usar um ou m
 
 * **Real-Time CDP** e **Adobe Journey Optimizer**: o administrador deve conceder a você a permissão **Habilitar Assistente de IA** para permitir que você acesse o Assistente de IA. O administrador também deve conceder a você as permissões **Exibir Insights Operacionais** para permitir que você faça perguntas sobre insights operacionais no Assistente de IA. Ambas as permissões são definidas pelo administrador na interface do usuário de Permissões.
 
-* **Customer Journey Analytics**: o administrador deve conceder a você permissão para acessar o Assistente de IA por meio do [Controle de Acesso do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/technotes/access-control). Isso permite fazer perguntas sobre conhecimento do produto e insights de dados.
+* **Customer Journey Analytics**: o administrador deve conceder a você permissão para acessar o Assistente de IA por meio do [Controle de Acesso do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control). Isso permite fazer perguntas sobre conhecimento do produto e insights de dados.
 
 >[!NOTE]
 >
 >As perguntas de insights operacionais não estão disponíveis para o Customer Journey Analytics; portanto, nenhuma permissão adicional se aplica.
 
-* **Adobe Experience Manager**: o administrador deve conceder a você permissão para acessar o Assistente de IA por meio da [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html).
+* **Adobe Experience Manager**: o administrador deve conceder a você permissão para acessar o Assistente de IA por meio da [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html).
+

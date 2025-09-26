@@ -4,7 +4,7 @@ description: Guia abrangente para as habilidades do Journey Agent Analyze, permi
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 0%
@@ -158,3 +158,4 @@ Para maximizar a eficácia do Journey Agent Analyze, siga estas práticas recome
 - **Definir objetivos claros**: antes de analisar jornadas, estabeleça metas claras (por exemplo, melhorar a retenção, aumentar as conversões).
 - **Monitorar Regularmente**: agende revisões regulares do desempenho da jornada para identificar tendências e anomalias.
 - **Otimizar segmentação**: certifique-se de que a segmentação de público esteja balanceada para evitar fadiga e maximizar o engajamento.
+

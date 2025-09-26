@@ -1,7 +1,7 @@
 ---
 title: Aviso de isenção legal - Dados pessoais, Suporte de idioma e Verificação de respostas
 description: Saiba mais sobre isenções de responsabilidade legais relacionadas a dados pessoais, suporte de idioma e verificação de respostas ao usar o Assistente de IA.
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 0%
@@ -25,3 +25,4 @@ No momento, o Assistente de IA é compatível somente em inglês. Entradas em ou
 ## Verificação de respostas {#verifying-responses}
 
 É importante verificar suas respostas, pois os modelos de linguagem podem cometer erros. Sempre verifique as fontes para garantir que a lógica do SQL esteja correta e que a documentação apropriada foi referenciada para o seu caso de uso. Revise as etapas de raciocínio e as explicações fornecidas pelo Assistente de IA para entender como ele chegou à sua resposta. Se algo não parecer certo, envie seu feedback.
+
