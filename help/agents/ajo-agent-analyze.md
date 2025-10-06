@@ -4,9 +4,9 @@ description: Guia abrangente para as habilidades do Journey Agent Analyze, permi
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: 26b579471b591d3c436f4275d07303d297e0fbf8
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,19 @@ ht-degree: 0%
 
 O Journey Agent permitirá que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com o Journey Agent, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e/ou público-alvo, detectar pontos de abandono de usuários em uma jornada e fornecer insights ou recomendações. Ele capacita os profissionais a tomar decisões orientadas por dados, melhorar o envolvimento do cliente e simplificar a orquestração de jornadas.
 
+Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+
 >[!AVAILABILITY]
 >
->O Journey Agent está disponível para todos os clientes que têm acesso ao AI Assistant. No entanto, você precisará das seguintes permissões para usar totalmente os recursos do Journey Agent.
+>O Journey Agent está disponível para todos os clientes que têm acesso ao AI Assistant. No entanto, você precisará das seguintes permissões para usar totalmente os recursos do Journey Agent:
 >
->**Exibir Jornadas**: essa permissão permite que você use a Journey Agent para exibir insights sobre a jornada diretamente no Assistente de IA.
+>**Exibir Jornadas**: essa permissão permite exibir insights sobre a jornada diretamente no Assistente de IA.
 >
->**Gerenciar Jornadas**: a permissão Para permite que você use a Journey Agent para criar novas jornadas diretamente no Assistente do AI.
+>**Gerenciar Jornadas**: a permissão Para permite que você crie novas jornadas diretamente no Assistente de IA.
 >
->**Exibir segmentos**: essa permissão permite que você use a Journey Agent para exibir insights sobre os públicos diretamente no Assistente de IA.
+>**Exibir segmentos**: essa permissão permite que você visualize insights sobre os públicos-alvo diretamente no Assistente de IA.
 >
->**Gerenciar segmentos**: a permissão Para permite que você use a Journey Agent para criar novos públicos diretamente no Assistente de IA.
+>**Gerenciar segmentos**: a permissão Para permite que você crie novos públicos diretamente no Assistente de IA.
 
 ![Amostra para o AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
