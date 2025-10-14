@@ -1,5 +1,5 @@
 ---
-title: Guia da interface do assistente de IA
+title: Guia da interface do Assistente de IA
 description: Saiba como acessar e usar o Assistente de IA na interface.
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
