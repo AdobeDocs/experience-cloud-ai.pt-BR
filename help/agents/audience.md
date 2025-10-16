@@ -4,7 +4,7 @@ description: Saiba como usar o Audience Agent para criar públicos, exibir alter
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 O Audience Agent permite exibir insights sobre públicos-alvo, incluindo a detecção de alterações significativas no tamanho do público-alvo, a detecção de públicos-alvo duplicados, a exploração do inventário do público-alvo e a recuperação do tamanho deles.
 
-## Casos de uso compatíveis
+## Casos de uso aceitos
 
 O Audience Agent no Assistente de IA é compatível com os seguintes casos de uso:
 

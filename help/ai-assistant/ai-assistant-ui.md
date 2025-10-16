@@ -4,7 +4,7 @@ description: Saiba como acessar e usar o Assistente de IA na interface.
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '1843'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -16,13 +16,13 @@ Leia este guia para saber como usar o Assistente de IA.
 
 ![A interface inicial do Assistente de IA em tela cheia.](./images/ai-assistant/blank-home.png)
 
-## Acessar o assistente do AI
+## Acessar o Assistente de IA
 
 Há várias maneiras de acessar o Assistente de IA.
 
 Na interface da página inicial do Experience Cloud, selecione **[!UICONTROL Assistente de IA]** no menu de navegação esquerdo para iniciar uma exibição de tela inteira do Assistente de IA.
 
-+++Selecione para exibir
++++Selecionar para exibir
 
 ![A página inicial da Experience Cloud com o ícone do Assistente de IA selecionado no menu de navegação esquerdo.](./images/ai-assistant/from-experience-cloud.png)
 
@@ -30,7 +30,7 @@ Na interface da página inicial do Experience Cloud, selecione **[!UICONTROL Ass
 
 Você também pode iniciar o Assistente de IA nas home pages dos aplicativos da Experience Cloud, como Experience Platform, Adobe Journey Optimizer e Customer Journey Analytics. Navegue até a home page do seu produto e selecione o **ícone do Assistente de IA** no cabeçalho superior para iniciar o painel de chat do Assistente de IA no painel direito.
 
-+++Selecione para exibir
++++Selecionar para exibir
 
 ![A página inicial do produto com o ícone do Assistente de IA selecionado no menu de navegação esquerdo.](./images/ai-assistant/from-product.png)
 
@@ -116,7 +116,7 @@ Em seguida, navegue até o final da resposta e selecione **[!UICONTROL Sugestõe
 
 ![A janela de sugestões relacionada no Assistente de IA.](./images/ai-assistant/inputs/related-suggestions.png)
 
-### Exibir fontes
+### Exibir origens
 
 Para verificar a resposta do Assistente de IA, selecione **[!UICONTROL Fontes]** para exibir uma lista de fontes de informações às quais o Assistente de IA fez referência ao calcular sua resposta.
 
@@ -136,7 +136,7 @@ Para fornecer feedback, selecione polegares para cima ou para baixo depois de re
 
 Selecione **[!UICONTROL Aumentar]** para fornecer feedback positivo. Opcionalmente, é possível selecionar em uma lista de comentários positivos ou usar a caixa de entrada para inserir seu próprio feedback específico.
 
-+++Selecione para exibir
++++Selecionar para exibir
 
 ![A janela de comentários para cima.](./images/ai-assistant/inputs/thumbs-up.png)
 
@@ -150,7 +150,7 @@ Você também pode selecionar **[!UICONTROL Feedback detalhado]** para detalhar 
 
 Selecione **[!UICONTROL Polegar para baixo]** para fornecer feedback construtivo. Opcionalmente, é possível selecionar em uma lista de comentários construtivos ou usar a caixa de entrada para inserir seu próprio feedback específico.
 
-+++Selecione para exibir
++++Selecionar para exibir
 
 ![A janela de comentários para baixo.](./images/ai-assistant/inputs/thumbs-down.png)
 
@@ -244,7 +244,7 @@ Para exibir um gráfico de dispersão, selecione **[!UICONTROL Propriedades]** e
 
 ![Um gráfico de dispersão no Assistente de IA.](./images/ai-assistant/visualization/scatter.png)
 
->[!TAB Rosca]
+>[!TAB Rosquinha]
 
 Para exibir um gráfico de rosca, selecione **[!UICONTROL Propriedades]** e selecione **[!UICONTROL Rosca]**.
 

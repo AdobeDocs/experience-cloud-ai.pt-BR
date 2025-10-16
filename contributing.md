@@ -7,53 +7,53 @@ ht-degree: 100%
 ---
 # Contribuição
 
-Agradecemos sua contribuição!
+Obrigado por colaborar!
 
-Veja a seguir um conjunto de orientações a serem seguidas ao contribuir para esse projeto.
+A seguir, há um conjunto de diretrizes a seguir ao contribuir com esse projeto.
 
-## Código de Conduta
+## Código de conduta
 
-Este projeto segue o [código de conduta](code-of-conduct.md) da Adobe. Ao participar,
-você deve manter esse código. Informe um comportamento inaceitável para
+Esse projeto segue o [código de conduta](code-of-conduct.md) da Adobe. Ao participar, você 
+deve seguir esse código. Denuncie qualquer comportamento inaceitável para 
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Documentação do Guia do colaborador
 
 Consulte o [Manual do colaborador](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=pt-BR).
 
-## Tem alguma pergunta?
+## Dúvidas?
 
-Comece ao denunciar um problema. Os atuais responsáveis por este projeto trabalham para chegar
-a um consenso sobre a direção do projeto e encontrar soluções dentro das conversas 
-(quando apropriado).
+Comece apresentando um problema. Os responsáveis existentes neste projeto trabalham para chegar a um
+consenso sobre a direção do projeto e emitem as soluções nos threads
+de problema (quando apropriado).
 
-## Contrato de licença do colaborador
+## Contrato de Licença de Colaborador
 
-Todas as contribuições de terceiros para este projeto devem ser acompanhadas por um contrato de licença
-de colaboração assinado. Isso concede à Adobe permissão para redistribuir suas contribuições
+Todas as contribuições de terceiros para esse projeto devem ser acompanhadas por um Contrato de Licença de Colaborador
+assinado. Esse contrato fornece à Adobe permissão para redistribuir suas contribuições
 como parte do projeto. [Assine nosso CLA](http://opensource.adobe.com/cla.html). Você
-precisa apenas enviar um CLA da Adobe uma vez, portanto, se você já enviou um anteriormente,
-você está pronto!
+precisa enviar um CLA da Adobe somente uma vez. Por isso, se já tiver enviado um,
+você pode ir em frente!
 
-## Revisões de código
+## Revisões do código
 
-Todos os envios devem assumir a forma de solicitações de pull
-e devem ser revisados pelos responsáveis pelo projeto. Leia a [documentação de solicitação de pull automática do GitHub](https://docs.github.com/pt/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)
-para obter mais informações sobre como enviar solicitações de pull automática.
+Todos os envios devem ser recebidos na forma de solicitações de pull e devem ser revisados
+pelos responsáveis pelo projeto. Leia a [documentação de solicitação de pull do GitHub](https://help.github.com/pt/articles/about-pull-requests/)
+para obter mais informações sobre como enviar solicitações de pull.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 
-## Do colaborador para a confirmação
+## De colaborador a responsável
 
-Adoramos as contribuições de nossa comunidade! Caso deseje dar um passo além da colaboração
-e se tornar um confirmador com pleno acesso à gravação e à opinião no projeto, você
-deve ser convidado para o projeto. Os confirmadores atuais utilizam um processo de indicação interno
-que deve alcançar um consenso lento (silêncio é aprovação) antes
-de os convites serem emitidos. Se você se sentir qualificado e quiser se envolver mais profundamente,
-sinta-se à vontade para alcançar os compromissos existentes e conversar sobre isso.
+Apreciamos as contribuições da nossa comunidade! Se você quiser ser mais do que um colaborador
+e se tornar um responsável com acesso de gravação total e ter voz no projeto, deverá
+ser convidado para o projeto. Os responsáveis existentes empregam um processo de designação
+interno para chegar a um consenso (ficar em silêncio significa aprovação) antes da emissão
+dos convites. Se você estiver qualificado e quiser se envolver mais profundamente,
+entre em contato com os responsáveis existentes para conversar sobre isso.
 
 ## Problemas de segurança
 

@@ -4,7 +4,7 @@ description: Saiba mais sobre os diferentes tipos de prompts e padrões de promp
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -61,25 +61,25 @@ Os prompts de exemplo a seguir podem ser usados com o Data Insights Agent para a
 
 Os exemplos de prompts a seguir podem ser usados com o Journey Agent para ajudar você a analisar ciclos de vida de jornadas, gerenciar recursos de jornadas, obter insights sobre relacionamentos de público-alvo e jornada e detectar conflitos entre jornadas. Use essas instruções para otimizar a orquestração de jornadas e resolver problemas com eficiência.
 
-### Jornada perguntas sobre o ciclo de vida
+### Perguntas sobre o ciclo de vida da jornada
 
 - &quot;Quando o {JOURNEY_NAME} foi publicado?&quot;
 - &quot;Quando {JOURNEY_NAME} foi interrompido?&quot;
 - &quot;Listar todas as jornadas atualmente no modo de teste&quot;
 
-### Jornada perguntas sobre recursos
+### Perguntas sobre os recursos da jornada
 
 - &quot;Quantas jornadas ao vivo eu tenho?&quot;
 - &quot;Forneça uma lista de todas as jornadas recorrentes agendadas e seus tempos de execução esperados.&quot;
 
-### Insights de público-alvo e Jornada
+### Insights de público-alvo e de jornada
 
 - &quot;Quais públicos-alvo são usados em mais de X jornadas?&quot;
 - &quot;Liste todas as jornadas usando o público-alvo {AUDIENCE_NAME}.&quot;
 
-### Prompts da Análise de Conflito
+### Prompts de análise de conflitos
 
-Use estes prompts para analisar possíveis conflitos entre jornadas, incluindo a programação e sobreposições de público-alvo:
+Use estes prompts para analisar potenciais conflitos entre jornadas, incluindo sobreposições de agendamento e de público-alvo:
 
 +++Selecione para exibir a lista
 

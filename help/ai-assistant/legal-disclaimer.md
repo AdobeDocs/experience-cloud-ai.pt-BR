@@ -4,7 +4,7 @@ description: Saiba mais sobre isenções de responsabilidade legais relacionadas
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 0%
+ht-degree: 22%
 
 ---
 
@@ -14,7 +14,7 @@ Leia este documento para obter informações sobre isenções de responsabilidad
 
 ## Dados pessoais {#personal-data}
 
-O Assistente de IA usa um chatbot automatizado. O uso deste chatbot automatizado constitui o consentimento de que as informações fornecidas na sessão de chat serão coletadas, usadas, divulgadas e retidas pela Adobe e por provedores de serviços que atuam em nome da Adobe de acordo com os termos do contrato entre sua organização e a Adobe.
+O Assistente de IA usa um chatbot automatizado. Se você fizer uso deste chatbot automatizado estará consentindo que as informações fornecidas na sessão de chat sejam coletadas, usadas, divulgadas e retidas pela Adobe e pelos provedores de serviços que atuam em nome da Adobe, de acordo com os termos do contrato entre a organização e a Adobe.
 
 Se você precisar incluir dados pessoais aqui, adicione apenas o que for necessário e somente se você tiver o direito de usá-los.
 

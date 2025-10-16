@@ -1,13 +1,13 @@
 ---
 title: Visão geral e guia do usuário do Jornada Analyze Agent Skill
-description: Guia abrangente para as habilidades do Journey Agent Analyze, permitindo que os usuários analisem jornadas de marketing, detectem problemas, descubram insights e otimizem o engajamento do cliente.
+description: Guia completo para a habilidade de análise do Journey Agent, que permite aos usuários analisar jornadas de marketing, detectar problemas, descobrir insights e otimizar o engajamento do cliente.
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
 source-git-commit: 26b579471b591d3c436f4275d07303d297e0fbf8
 workflow-type: tm+mt
 source-wordcount: '979'
-ht-degree: 0%
+ht-degree: 38%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## Visão geral
 
-O Journey Agent permitirá que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com o Journey Agent, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e/ou público-alvo, detectar pontos de abandono de usuários em uma jornada e fornecer insights ou recomendações. Ele capacita os profissionais a tomar decisões orientadas por dados, melhorar o envolvimento do cliente e simplificar a orquestração de jornadas.
+O Journey Agent permitirá que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com o Journey Agent, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e/ou público-alvo, detectar pontos de abandono de usuários em uma jornada e fornecer insights ou recomendações. Ele capacita profissionais de marketing a tomar decisões baseadas em dados, melhorar o engajamento do cliente e simplificar a orquestração da jornada.
 
-Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/pt-br/slides/journey-agent-overview).
+Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -36,27 +36,27 @@ Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experien
 
 ## Casos de uso
 
-### Principais casos de uso do Journey Agent Analyze
+### Principais casos de uso da análise do Journey Agent
 
-A habilidade do Journey Agent Analyze oferece uma variedade de funcionalidades que podem ser aproveitadas para otimizar esforços de marketing:
+A habilidade de análise do Journey Agent oferece uma variedade de funcionalidades que podem ser aproveitadas para otimizar os esforços de marketing:
 
-1. **Análise de Fallout de Jornada**
+1. **Análise de fallout da jornada**
 
-   - Identifique onde e por que os clientes caem durante uma jornada.
-   - Detectar padrões no comportamento do cliente que levam à desvinculação.
+   - Identifique onde e por que os clientes desistem durante uma jornada.
+   - Detecte padrões no comportamento do cliente que levam ao desengajamento.
    - Use insights para refinar o design da jornada e melhorar a retenção.
 
-1. **Análise de sobreposição de público-alvo de Jornada**
+1. **Análise de sobreposição de público-alvo da jornada**
 
-   - Analise a sobreposição de público-alvo em várias jornadas.
-   - Evite a fadiga do público-alvo causada pelo excesso de direcionamento.
+   - Analise a sobreposição de público-alvo em diversas jornadas.
+   - Evite a fadiga de público-alvo causada pelo excesso de direcionamento.
    - Otimize a segmentação para garantir um engajamento equilibrado.
 
-1. **Análise de Sobreposição de Agendamento de Jornada**
+1. **Análise de sobreposição de cronograma da jornada**
 
-   - Detectar conflitos de tempo entre jornadas agendadas direcionadas para o mesmo público-alvo.
-   - Evite a comunicação excessiva e melhore a eficiência da programação.
-   - Maximize o impacto do público-alvo garantindo que as jornadas sejam executadas em momentos ideais.
+   - Detecte conflitos de data entre jornadas programadas que direcionam o mesmo público-alvo.
+   - Evite o excesso de comunicação e melhore a eficiência do agendamento.
+   - Maximize o impacto no público-alvo garantindo que as jornadas ocorram nos momentos ideais.
 
 1. **Insights operacionais**
 
@@ -67,43 +67,43 @@ Para cada uma dessas análises, o agente não apenas detecta problemas, mas tamb
 
 ## Habilidades dentro e fora do escopo
 
-### **No Escopo**
+### **Dentro do escopo**
 
-Os seguintes recursos são compatíveis com o Journey Agent Analyze:
+Os seguintes recursos são compatíveis com a análise do Journey Agent:
 
-- **Consultas reativas**: permite que os usuários façam perguntas específicas sobre o desempenho da jornada, o uso do público-alvo e os conflitos de agendamento.
-- **Integração com outros agentes**: colabora com a Audience Agent e a Data Insights Agent para uma análise mais profunda.
+- **Consultas reativas**: permite que usuários façam perguntas específicas sobre o desempenho da jornada, a utilização do público-alvo e conflitos de agendamento.
+- **Integração com outros agentes**: colabora com o Audience Agent e o Data Insights Agent para realizar análises mais aprofundadas.
 - **Estrutura de resposta do agente**: raciocínio (explique a lógica), resumo da análise (destaque os pontos principais), detalhes do problema (descreva o problema) e recomendação (proponha as próximas etapas).
 
-### **Fora de escopo**
+### **Fora do escopo**
 
-As seguintes funcionalidades não são suportadas no momento:
+As seguintes funcionalidades não são compatíveis no momento:
 
-- **Criação de Jornada automatizada**
+- **Criação automatizada de jornadas**
 - **Detecção de anomalias em tempo real**
 - **Sobreposição de canais**
-- **Análise de entrada de Jornada**
+- **Análise de entrada da jornada**
 - **Análise de problemas técnicos**
 - **Análise de fadiga**
 
-## Prompts de amostra / Prompts de exemplo
+## Prompts de amostra e prompts de exemplo
 
-### Prompts comuns para a análise de Jornadas
+### Prompts comuns para a análise da jornada
 
-Estes são exemplos de prompts valiosos que os usuários podem utilizar para explorar, monitorar e solucionar problemas de suas jornadas.
+Estes são alguns exemplos de prompts valiosos que os usuários podem aproveitar para explorar, monitorar e solucionar problemas em suas jornadas.
 
-### Jornada perguntas sobre o ciclo de vida
+### Perguntas sobre o ciclo de vida da jornada
 
 - &quot;Quando o [Nome da Jornada] foi publicado?&quot;
 - &quot;Quando o [Nome da Jornada] foi interrompido?&quot;
 - &quot;Listar todas as jornadas atualmente no modo de teste&quot;
 
-### Jornada perguntas sobre recursos
+### Perguntas sobre os recursos da jornada
 
 - &quot;Quantas jornadas ao vivo eu tenho?&quot;
 - &quot;Forneça uma lista de todas as jornadas recorrentes agendadas e seus tempos de execução esperados.&quot;
 
-### Insights de público-alvo e Jornada
+### Insights de público-alvo e de jornada
 
 - &quot;Quais públicos-alvo são usados em mais de X jornadas?&quot;
 - &quot;Liste todas as jornadas usando o [nome do público-alvo].&quot;
@@ -115,9 +115,9 @@ Estes são exemplos de prompts valiosos que os usuários podem utilizar para exp
 - &quot;O que é perda de perfil ao longo da Campanha de 4 de julho do jornada?&quot;
 - &quot;Mostrar onde os usuários estão saindo na Campanha do jornada de 4 de julho.&quot;
 
-### Prompts da Análise de Conflito
+### Prompts de análise de conflitos
 
-Use estes prompts para analisar possíveis conflitos entre jornadas, incluindo a programação e sobreposições de público-alvo:
+Use estes prompts para analisar potenciais conflitos entre jornadas, incluindo sobreposições de agendamento e de público-alvo:
 
 - &quot;Você pode fazer uma análise abrangente dos conflitos da sua jornada [Nome da Jornada] com informações de tipo de conflito (agendamento/público) com jornadas ativas/em execução?&quot;
 - &quot;Faça uma análise de conflito de agendamento para a jornada [Nome da Jornada] com informações de tipo de conflito.&quot;
@@ -147,17 +147,17 @@ Use estes prompts para analisar possíveis conflitos entre jornadas, incluindo a
 
 ## Práticas recomendadas
 
-### Solicitação de práticas recomendadas
+### Práticas recomendadas de criação de prompts
 
-Para maximizar a eficácia do Journey Agent Analyze, siga estas práticas recomendadas:
+Para maximizar a eficácia da análise do Journey Agent, siga estas práticas recomendadas:
 
-1. **Seja específico**: use prompts claros e concisos para obter insights direcionados. Por exemplo, em vez de perguntar &quot;Quais são minhas jornadas?&quot;, especifique &quot;Listar todas as jornadas criadas no último mês&quot;.
-1. **Combinar insights**: integre insights do Audience Agent e do Data Insights Agent para obter uma visão holística do desempenho do jornada.
-1. **Refinamento iterativo**: use o fallout e a análise de sobreposição para refinar iterativamente o design e o agendamento da jornada.
+1. **Seja específico(a)**: use prompts claros e concisos para obter insights direcionados. Por exemplo, em vez de perguntar &quot;Quais são minhas jornadas?&quot;, especifique &quot;Listar todas as jornadas criadas no último mês&quot;.
+1. **Combine insights**: integre insights do Audience Agent e do Data Insights Agent para obter uma visão integral do desempenho da jornada.
+1. **Refinamento iterativo**: use as análises de fallout e de sobreposição para refinar continuamente o design e o agendamento da jornada.
 
-### Configurar práticas recomendadas
+### Práticas recomendadas de configuração
 
-- **Definir objetivos claros**: antes de analisar jornadas, estabeleça metas claras (por exemplo, melhorar a retenção, aumentar as conversões).
-- **Monitorar Regularmente**: agende revisões regulares do desempenho da jornada para identificar tendências e anomalias.
-- **Otimizar segmentação**: certifique-se de que a segmentação de público esteja balanceada para evitar fadiga e maximizar o engajamento.
+- **Defina objetivos claros**: antes de analisar as jornadas, estabeleça metas claras (por exemplo: melhorar a retenção, aumentar as conversões).
+- **Monitore regularmente**: agende revisões regulares do desempenho da jornada para identificar tendências e anomalias.
+- **Otimize a segmentação**: mantenha uma segmentação de público-alvo equilibrada para evitar fadiga e maximizar o engajamento.
 
