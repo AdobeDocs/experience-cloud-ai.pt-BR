@@ -1,10 +1,10 @@
 ---
 title: Audience Agent
 description: Saiba como usar o Audience Agent para criar públicos, exibir alterações de público, detectar públicos duplicados e exibir insights do público.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: 2c50a4abaf9606e3c7887073053d0cde3ec761e5
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 1%
+source-wordcount: '859'
+ht-degree: 2%
 
 ---
 
@@ -25,41 +25,41 @@ O Audience Agent permite exibir insights sobre públicos-alvo, incluindo a detec
 
 O Audience Agent no Assistente de IA é compatível com os seguintes casos de uso:
 
-- Encontre o tamanho do seu público e detecte alterações significativas no tamanho do público
-
+- Explorar seu público de forma conversacional
+   - Localizar tamanhos de público-alvo de públicos-alvo existentes
+   - Procure públicos-alvo com base em atributos completos ou parciais chamados
+   - Detectar públicos-alvo duplicados
+   - Descobrir campos XDM que podem ser usados para definir um público
+- Detectar alterações significativas no tamanho do público
    - Isso permite encontrar públicos que subitamente cresceram ou diminuíram, permitindo que você analise melhor as possíveis alterações de mercado
 
-- Detectar públicos-alvo duplicados
-
-   - Isso permite reduzir as redundâncias com os públicos criados
-
-- Encontre públicos-alvo com base em atributos completos ou parciais chamados
-
-   - Isso facilita a navegação pelo inventário de público-alvo
-
-- Descobrir campos XDM que podem ser usados para definir um público
-
-   - Essa habilidade permite identificar mais facilmente os campos certos a serem usados no público com base no contexto e na relevância
+<!-- - Find your audience size and detect significant changes in audience size
+  - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
+- Detect duplicate audiences
+  - This lets you reduce redundancies with your created audiences
+- Find audiences based on full or partial attributes named
+  - This lets you more easily navigate through your audience inventory
+- Discover XDM fields you can use to define an audience
+  - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
 
 A Audience Agent não **oferece suporte atualmente** aos seguintes recursos:
 
 - Criação de público-alvo com base no conhecimento
-
    - A criação de público-alvo com base no conhecimento é criar um público-alvo com base nos atributos e eventos fornecidos
    - Além disso, é possível estimar o tamanho potencial do público-alvo antes da criação. Isso permite iterar rapidamente no público-alvo mais eficiente antes que esteja pronto para ativação
    - O suporte para esse recurso será lançado em breve
-
 - Exploração de público-alvo com base em metas
-
    - A exploração de público-alvo com base em metas permite descobrir conjuntos de dados e perfis relevantes alinhados a uma meta comercial aplicando modelos de aprendizado de máquina, como propensão para comprar ou converter.
 
 Além disso, ao usar o Audience Agent, você deve ter as seguintes restrições em mente:
 
 - O Audience Agent precisa de pelo menos 24 horas para processar seus dados
-
    - Por exemplo, você **não pode** ter uma consulta que procura dados nas últimas 24 horas. Você terá que olhar dentro das últimas 48 horas, no mínimo.
-
-- O Audience Agent só oferece suporte a **pessoas**, com base em públicos avaliados por meio da segmentação em lote
+- O Audience Agent é compatível apenas com os seguintes tipos de público-alvo:
+   - **Públicos-alvo** com base em pessoas que são avaliados usando a segmentação em lote
+   - **Públicos-alvo** baseados em conta para os seguintes casos de uso:
+      - Exploração de público-alvo de conversa
+      - Detecção de público-alvo duplicado
 
 ## Exemplos de prompts
 
@@ -91,6 +91,14 @@ Liste todos os públicos que foram mapeados para novos destinos nos últimos tr�
 
 +++
 
+Qual público-alvo de conta tem o maior tamanho de público-alvo e qual é esse tamanho?
+
++++ Resposta
+
+![O Assistente de IA mostra uma tabela que exibe os maiores públicos-alvo da conta.](./images/audience/largest-account-audience.png)
+
++++
+
 ### Detectar públicos-alvo duplicados
 
 Tenho públicos-alvo com descrições idênticas ou semelhantes?
@@ -114,6 +122,14 @@ Mostre-me todos os públicos-alvo que têm as mesmas regras, mas destinos de ati
 +++ Resposta
 
 ![O Assistente de IA mostra que não há definições de segmento duplicadas para destinos diferentes.](./images/audience/same-rules-different-destinations.png)
+
++++
+
+Identifique públicos-alvo de conta que tenham as mesmas regras, mas nomes diferentes.
+
++++ Resposta
+
+![O Assistente de IA exibe uma tabela que contém os nomes e as IDs dos públicos-alvo da conta que compartilham as mesmas regras de público-alvo.](./images/audience/duplicate-account-audience.png)
 
 +++
 
