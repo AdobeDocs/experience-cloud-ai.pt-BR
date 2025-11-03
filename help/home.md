@@ -1,9 +1,9 @@
 ---
 title: IA em aplicativos da Experience Cloud
 description: Saiba como os aplicativos da Experience Cloud usam a IA generativa (GenAI), o Assistente de IA e a IA agêntica.
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 8c05562121071874002afd6d248f16186616da55
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '830'
 ht-degree: 3%
 
 ---
@@ -48,6 +48,8 @@ A Audience Agent fornece insights sobre públicos-alvo, incluindo:
 - Explorar o inventário de público-alvo.
 - Recuperação de tamanhos de público-alvo.
 
+Leia a [documentação do Audience Agent](./agents/audience.md) para obter mais informações.
+
 #### Data Insights Agent
 
 Disponível na Customer Journey Analytics, a Data Insights Agent:
@@ -56,13 +58,15 @@ Disponível na Customer Journey Analytics, a Data Insights Agent:
 - Cria visualizações relevantes no Analysis Workspace.
 - Usa componentes da sua visualização de dados e dados reais.
 
-#### Journey Agent
+#### Agente de análise de Jornada
 
-O Journey Agent permite que os usuários do Adobe Journey Optimizer:
+O Jornada Analyze Agent permite que os usuários do Adobe Journey Optimizer:
 
 - Analise e otimize jornadas usando a linguagem natural.
 - Detectar e resolver conflitos de agendamento ou público-alvo.
 - Analise o desempenho e os pontos de devolução.
+
+Leia a [documentação do Jornada Analyze Agent](./agents/ajo-agent-analyze.md) para obter mais informações.
 
 #### Agente de suporte ao produto
 
@@ -71,6 +75,8 @@ Use o Agente de Suporte do Produto para depuração e solução de problemas de 
 - Solucionar problemas de recursos do Adobe Experience Platform sem sair dos fluxos de trabalho.
 - Criar tíquetes de suporte com contexto de interações do Assistente de IA.
 - Verifique as atualizações de tíquete por meio do Assistente de IA.
+
+Leia a [documentação do Agente de Suporte do Produto](./agents/product-support.md) para obter mais informações.
 
 ## Introdução
 
