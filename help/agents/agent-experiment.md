@@ -1,9 +1,9 @@
 ---
 title: Agente de experimentação
 description: Saiba como usar o agente de experimentação
-source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
+source-git-commit: 5694f15d82081eed8e762fea8aabc3da1e265b04
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '535'
 ht-degree: 3%
 
 ---
@@ -12,15 +12,21 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->O Agente de experimentação está disponível para todos os clientes que têm acesso ao Assistente de IA. No entanto, você precisa das seguintes permissões para usar totalmente os recursos do Agente de experimentação.
+>O agente de experimentação está disponível para todos os clientes que compraram a licença paga do Journey Optimizer Experimentation Accelerator e se integra perfeitamente à Adobe Target ou à Adobe Journey Optimizer.
 >
->**Exibir experimentos**: essa permissão permite que você use o Agente de experimentação para exibir insights sobre o experimento diretamente no Assistente de IA.
->
->**Gerenciar metadados do experimento**: essa permissão permite que você use o Agente de experimentação para criar novos experimentos diretamente no Assistente de IA.
+>[Saiba mais sobre o Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/pt-br/docs/experimentation-accelerator/using/overview)
 
 ## Visão geral
 
 O **Agente de experimentação** é uma ferramenta alimentada por IA que moderniza como você pode executar e gerenciar experimentos digitais em sites, emails, mensagens por push e aplicativos. Criado com base na plataforma de IA do Adobe Experience Platform e em ferramentas de experimentação, o **Agente de experimentação** ajuda a executar experimentos com mais eficiência, organizar metas comerciais e gerar insights acionáveis, destacando o que funcionou, o que não funcionou e onde experimentar em seguida.
+
+As permissões a seguir para usar totalmente os recursos do Agente de experimentação.
+
+* **Exibir experimentos**: essa permissão permite que você use o Agente de experimentação para exibir insights sobre o experimento diretamente no Assistente de IA.
+
+* **Gerenciar metadados do experimento**: essa permissão permite que você use o Agente de experimentação para criar novos experimentos diretamente no Assistente de IA.
+
+➡️ [Saiba mais na documentação do Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Como parte do recurso do Experimentation Accelerator, o Agente oferece:
 
