@@ -1,9 +1,9 @@
 ---
 title: Audience Agent
 description: Saiba como usar o Audience Agent para criar públicos, exibir alterações de público, detectar públicos duplicados e exibir insights do público.
-source-git-commit: f2b5bd1a59055a8ca6785abfc2d0a336eea7fd98
+source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '1204'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,9 @@ O Audience Agent no Assistente de IA é compatível com os seguintes casos de us
    - Descobrir campos XDM que podem ser usados para definir um público
 - Detectar alterações significativas no tamanho do público
    - Isso permite encontrar públicos que subitamente cresceram ou diminuíram, permitindo que você analise melhor as possíveis alterações de mercado
+- Criação de público-alvo
+   - Essa habilidade permite criar um público-alvo com base nos atributos e eventos fornecidos
+   - Além disso, essa habilidade permite estimar o tamanho potencial de um público antes de criá-lo, permitindo que você repita rapidamente no público mais eficiente antes que ele esteja pronto para ser ativado
 
 <!-- - Find your audience size and detect significant changes in audience size
   - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
@@ -44,12 +47,8 @@ O Audience Agent no Assistente de IA é compatível com os seguintes casos de us
 - Discover XDM fields you can use to define an audience
   - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
 
-A Audience Agent não **oferece suporte atualmente** aos seguintes recursos:
+A Audience Agent não **oferece suporte ao seguinte recurso no momento**:
 
-- Criação de público-alvo com base no conhecimento
-   - A criação de público-alvo com base no conhecimento é criar um público-alvo com base nos atributos e eventos fornecidos
-   - Além disso, é possível estimar o tamanho potencial do público-alvo antes da criação. Isso permite iterar rapidamente no público-alvo mais eficiente antes que esteja pronto para ativação
-   - O suporte para esse recurso será lançado em breve
 - Exploração de público-alvo com base em metas
    - A exploração de público-alvo com base em metas permite descobrir conjuntos de dados e perfis relevantes alinhados a uma meta comercial aplicando modelos de aprendizado de máquina, como propensão para comprar ou converter.
 
@@ -178,6 +177,80 @@ Qual é o meu público que cresce mais rápido?
 ![O Assistente de IA informa o nome do público-alvo que cresce mais rápido, bem como o tamanho atual e a porcentagem de crescimento.](./images/audience/fastest-growing.png)
 
 +++
+
+### Criar um público-alvo
+
+Ao criar um público-alvo com o Audience Agent, o Assistente de IA orientará você em um plano. Por exemplo, você pode pedir para &quot;Criar um público-alvo composto por pessoas que vivem na Califórnia&quot;. O Assistente de IA lista o plano que ele executará para criar o público-alvo.
+
++++ Resposta
+
+![O Assistente de IA mostra o plano para criar um público-alvo.](./images/audience/audience-create-plan.png)
+
++++
+
+Este plano é composto por três etapas:
+
+1. [Identificar características do público](#identify)
+2. [Estimar tamanho do público](#estimate)
+3. [Criar e criar um novo público-alvo persistente](#create)
+
+#### Identificar características do público {#identify}
+
+![Etapa 1 do plano, que é identificar as características do público-alvo.](./images/audience/plan-step-1.png){align="center" width="80%"}
+
+Depois de aceitar o plano, o Assistente de IA capturará as características do público-alvo com base na consulta inicial.
+
++++ Resposta
+
+![A definição de público-alvo com base na consulta de usuário.](./images/audience/audience-create-definition.png)
+
+Para esta consulta, o Assistente de IA gera a Profile Query Language (PQL) relevante que procuraria pessoas que vivem na Califórnia. Nesse caso de uso, a consulta do PQL seria semelhante ao seguinte:
+
+```sql
+homeAddress.state.equals("California", false)
+```
+
+Para obter mais informações sobre o PQL, leia a [visão geral do PQL](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
+
++++
+
+Se a definição de público-alvo do Assistente de IA estiver correta, você poderá aprovar e seguir para a próxima etapa.
+
+#### Estimar tamanho do público {#estimate}
+
+![Etapa 2 do plano, que é estimar o tamanho do público potencial.](./images/audience/plan-step-2.png){align="center" width="80%"}
+
+Depois de aprovar as características identificadas do público-alvo, o Assistente de IA estimará o tamanho do público-alvo potencial e os detalhes de definição do público-alvo.
+
++++ Resposta
+
+![A amostra de estimativa para o público-alvo potencial é exibida. O tamanho estimado e a definição do segmento são mostrados.](./images/audience/audience-create-estimate.png)
+
++++
+
+Se o tamanho estimado estiver correto, você poderá aprovar e seguir para a próxima etapa.
+
+#### Criar e manter um novo público-alvo {#create}
+
+![Etapa 3 do plano, que é concluir a criação do público-alvo.](./images/audience/plan-step-3.png){align="center" width="80%"}
+
+Por fim, se as características e o tamanho do público estiverem corretos, você poderá aprovar ou rejeitar a criação do público.
+
++++ Resposta
+
+Primeiro, você pode revisar o público-alvo proposto por meio da grade de dados fornecida.
+
+![A tela de revisão é exibida.](./images/audience/audience-create-review.png)
+
+Se o público estiver correto, você pode aceitar a proposta selecionando **[!UICONTROL Criar]** para concluir a criação do público.
+
+![A proposta completa para o público-alvo é exibida.](./images/audience/audience-create-proposal.png)
+
++++
+
+O público-alvo foi criado.
+
+![A proposta de público-alvo foi aceita e o público-alvo foi criado.](./images/audience/audience-finish-create.png){align="center" width="80%"}
 
 ## Próximas etapas
 
