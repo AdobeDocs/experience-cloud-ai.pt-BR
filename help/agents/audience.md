@@ -1,9 +1,9 @@
 ---
 title: Audience Agent
 description: Saiba como usar o Audience Agent para criar públicos, exibir alterações de público, detectar públicos duplicados e exibir insights do público.
-source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
+source-git-commit: effd4fe4123953b6af375dfb46fcc669b2e35df1
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1229'
 ht-degree: 2%
 
 ---
@@ -180,6 +180,10 @@ Qual é o meu público que cresce mais rápido?
 
 ### Criar um público-alvo
 
+>[!AVAILABILITY]
+>
+>Você só poderá usar a habilidade criar público-alvo se fizer parte do programa Agent Orchestrator Explorer. Para obter mais informações, entre em contato com o Atendimento ao cliente da Adobe.
+
 Ao criar um público-alvo com o Audience Agent, o Assistente de IA orientará você em um plano. Por exemplo, você pode pedir para &quot;Criar um público-alvo composto por pessoas que vivem na Califórnia&quot;. O Assistente de IA lista o plano que ele executará para criar o público-alvo.
 
 +++ Resposta
@@ -210,7 +214,7 @@ Para esta consulta, o Assistente de IA gera a Profile Query Language (PQL) relev
 homeAddress.state.equals("California", false)
 ```
 
-Para obter mais informações sobre o PQL, leia a [visão geral do PQL](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/pql/overview).
+Para obter mais informações sobre o PQL, leia a [visão geral do PQL](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
 
 +++
 
