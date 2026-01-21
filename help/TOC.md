@@ -5,10 +5,10 @@ user-guide-description: Saiba como usar o Assistente de IA para acelerar o fluxo
 description: Saiba mais sobre o Assistente de IA na Experience Cloud. Aprimore seu conhecimento do produto e obtenha insights operacionais com a IA na Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 864002185f3745ca76180af192f616d1e5da0791
+source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 60%
+source-wordcount: '80'
+ht-degree: 63%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 60%
    - [Audience Agent](./agents/audience.md)
    - [Data Insights Agent](./agents/cja-data-insights-agent.md)
    - [Agente de experimento](./agents/agent-experiment.md)
-   - [Agente de análise de Jornada](./agents/ajo-agent-analyze.md)
-   - [Jornada Criar Agente](./agents/ajo-agent-create.md)
+   - [Journey Agent](./agents/ajo-agent.md)
    - [Agente de suporte ao produto](./agents/product-support.md)
 

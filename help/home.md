@@ -1,9 +1,9 @@
 ---
 title: IA em aplicativos da Experience Cloud
 description: Saiba como os aplicativos da Experience Cloud usam a IA generativa (GenAI), o Assistente de IA e a IA agêntica.
-source-git-commit: 8c05562121071874002afd6d248f16186616da55
+source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ O Jornada Analyze Agent permite que os usuários do Adobe Journey Optimizer:
 - Detectar e resolver conflitos de agendamento ou público-alvo.
 - Analise o desempenho e os pontos de devolução.
 
-Leia a [documentação do Jornada Analyze Agent](./agents/ajo-agent-analyze.md) para obter mais informações.
+Leia a [documentação do Journey Agent](./agents/ajo-agent.md) para obter mais informações.
 
 #### Agente de suporte ao produto
 
