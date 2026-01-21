@@ -22,9 +22,9 @@ O Journey Agent consiste em duas habilidades principais:
 - **Criar Agente do Jornada**: criar e configurar jornadas de marketing por meio de prompts de linguagem natural
 - **Jornada Analyze Agent**: analise jornadas, detecte problemas, descubra insights e otimize o engajamento do cliente
 
----
+&#x200B;---
 
-# Jornada Criar agente: visão geral e guia do usuário da habilidade
+&#x200B;# Jornada Criar agente: visão geral e guia do usuário da habilidade
 
 ## Visão geral
 
@@ -161,9 +161,9 @@ Quando um usuário entrar no meu local de armazenamento, envie uma mensagem de b
 - **Conteúdo da Mensagem do Plano**: Defina sua estratégia de mensagens antes da criação da jornada.
 - **Considere a Experiência do Cliente**: crie fluxos de jornada que respeitem as preferências do cliente e evitem a comunicação excessiva.
 
----
+&#x200B;---
 
-# Jornada Analyze Agent: visão geral e guia do usuário da habilidade
+&#x200B;# Jornada Analyze Agent: visão geral e guia do usuário da habilidade
 
 ## Visão geral
 
@@ -311,7 +311,7 @@ Para maximizar a eficácia da análise do Journey Agent, siga estas práticas re
 - **Monitore regularmente**: agende revisões regulares do desempenho da jornada para identificar tendências e anomalias.
 - **Otimize a segmentação**: mantenha uma segmentação de público-alvo equilibrada para evitar fadiga e maximizar o engajamento.
 
----
+&#x200B;---
 
 ## Slides e apresentações
 
