@@ -4,7 +4,7 @@ description: Guia abrangente para o Journey Agent, permitindo que os usuários c
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
+source-git-commit: 229d349d971ffaba3f2f2fb989e363d96a8d7a70
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 18%
@@ -22,9 +22,7 @@ O Journey Agent consiste em duas habilidades principais:
 - **Criar Agente do Jornada**: criar e configurar jornadas de marketing por meio de prompts de linguagem natural
 - **Jornada Analyze Agent**: analise jornadas, detecte problemas, descubra insights e otimize o engajamento do cliente
 
-&#x200B;---
-
-&#x200B;# Jornada Criar agente: visão geral e guia do usuário da habilidade
+## Jornada Criar agente: visão geral e guia do usuário da habilidade
 
 ## Visão geral
 
@@ -161,15 +159,13 @@ Quando um usuário entrar no meu local de armazenamento, envie uma mensagem de b
 - **Conteúdo da Mensagem do Plano**: Defina sua estratégia de mensagens antes da criação da jornada.
 - **Considere a Experiência do Cliente**: crie fluxos de jornada que respeitem as preferências do cliente e evitem a comunicação excessiva.
 
-&#x200B;---
-
-&#x200B;# Jornada Analyze Agent: visão geral e guia do usuário da habilidade
+## Jornada Analyze Agent: visão geral e guia do usuário da habilidade
 
 ## Visão geral
 
 O Journey Agent permitirá que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com o Journey Agent, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e/ou público-alvo, detectar pontos de abandono de usuários em uma jornada e fornecer insights ou recomendações. Ele capacita profissionais de marketing a tomar decisões baseadas em dados, melhorar o engajamento do cliente e simplificar a orquestração da jornada.
 
-Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/pt-br/slides/journey-agent-overview).
+Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -310,8 +306,6 @@ Para maximizar a eficácia da análise do Journey Agent, siga estas práticas re
 - **Defina objetivos claros**: antes de analisar as jornadas, estabeleça metas claras (por exemplo: melhorar a retenção, aumentar as conversões).
 - **Monitore regularmente**: agende revisões regulares do desempenho da jornada para identificar tendências e anomalias.
 - **Otimize a segmentação**: mantenha uma segmentação de público-alvo equilibrada para evitar fadiga e maximizar o engajamento.
-
-&#x200B;---
 
 ## Slides e apresentações
 
