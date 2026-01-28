@@ -1,7 +1,7 @@
 ---
 title: Guia da interface do Assistente de IA
 description: Saiba como acessar e usar o Assistente de IA na interface.
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 0e7306c50fbb6913bfd08d9d31484ec1690be91d
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 1%
@@ -72,7 +72,7 @@ A visualização do painel fornece acesso rápido a bate-papo, prompts de descob
 
 Esta seção fornece uma visão geral dos principais recursos e opções de navegação na interface do usuário do Assistente de IA. Ele explica como acessar o Assistente de IA, descreve o layout e os controles em exibições de tela cheia e painel e introduz ferramentas-chave, como conversas, recursos de entrada, preenchimento automático, configuração de contexto e prompts de descoberta. As seções a seguir oferecem orientação detalhada sobre como usar esses recursos para interagir com o Assistente de IA e aproveitar ao máximo sua experiência.
 
-### Prompts de descoberta
+### Prompts de descoberta {#discovery-prompts}
 
 Você pode usar o recurso de descoberta do Assistente do AI para exibir uma lista de assuntos gerais, agrupados em entidades, que o Assistente do AI suporta. Os prompts de descoberta são diferentes dependendo do seu ponto de partida.
 
