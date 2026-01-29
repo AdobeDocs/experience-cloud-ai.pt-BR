@@ -1,9 +1,7 @@
 ---
 title: Teste vinculado ao uso de agentes da Adobe Experience Platform
 description: Saiba mais sobre a avaliação complementar para agentes do Adobe Experience Platform.
-hide: true
-hidefromtoc: true
-source-git-commit: d764d3f5ef2b5dcd18fd754298fae5e2b145805f
+source-git-commit: a94ab9a30900e2d3a8db44994a1cb51a5f9361ff
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 1%
@@ -25,7 +23,7 @@ ht-degree: 1%
 
 A Adobe determinará sua qualificação para a avaliação a seu critério exclusivo. Os clientes que atualmente têm ou já tiveram uma licença do Adobe Experience Platform Agent Orchestrator Promotion ou uma licença do Experience Platform Agents AI Credits não estão qualificados para a avaliação.
 
-Os clientes qualificados recebem um direito único inicial de até 10.000 créditos de IA para usar em qualquer combinação de trabalhos (dependendo das suas licenças existentes para aplicativos da Experience Cloud) listados na [Tabela de consumo de crédito de IA](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Você pode rastrear seus créditos de IA usando o painel de uso de licença na interface do usuário do Adobe Experience Platform. Para obter mais informações, leia a [documentação do painel de uso da licença](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dashboards/guides/license-usage).
+Os clientes qualificados recebem um direito único inicial de até 10.000 créditos de IA para usar em qualquer combinação de trabalhos (dependendo das suas licenças existentes para aplicativos da Experience Cloud) listados na [Tabela de consumo de crédito de IA](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Você pode rastrear seus créditos de IA usando o painel de uso de licença na interface do usuário do Adobe Experience Platform. Para obter mais informações, leia a [documentação do painel de uso da licença](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
