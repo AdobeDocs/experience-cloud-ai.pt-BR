@@ -1,9 +1,9 @@
 ---
 title: Teste vinculado ao uso de agentes da Adobe Experience Platform
 description: Saiba mais sobre a avaliação complementar para agentes do Adobe Experience Platform.
-source-git-commit: a94ab9a30900e2d3a8db44994a1cb51a5f9361ff
+source-git-commit: 919abbc1a4919b46f6a9beec6f8e3dc71dc4edb7
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '1023'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 A Adobe determinará sua qualificação para a avaliação a seu critério exclusivo. Os clientes que atualmente têm ou já tiveram uma licença do Adobe Experience Platform Agent Orchestrator Promotion ou uma licença do Experience Platform Agents AI Credits não estão qualificados para a avaliação.
 
-Os clientes qualificados recebem um direito único inicial de até 10.000 créditos de IA para usar em qualquer combinação de trabalhos (dependendo das suas licenças existentes para aplicativos da Experience Cloud) listados na [Tabela de consumo de crédito de IA](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Você pode rastrear seus créditos de IA usando o painel de uso de licença na interface do usuário do Adobe Experience Platform. Para obter mais informações, leia a [documentação do painel de uso da licença](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dashboards/guides/license-usage).
+Os clientes qualificados recebem um direito único inicial de até 10.000 créditos de IA para usar em qualquer combinação de trabalhos (dependendo das suas licenças existentes para aplicativos da Experience Cloud) listados na [Tabela de consumo de crédito de IA](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption). Você pode rastrear seus créditos de IA usando o painel de uso de licença na interface do usuário do Adobe Experience Platform. Para obter mais informações, leia a [documentação do painel de uso da licença](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
 
 >[!IMPORTANT]
 >
@@ -42,6 +42,50 @@ Para obter informações sobre os agentes disponíveis, leia a [visão geral do 
 >[!TIP]
 >
 >Obter Ajuda - Envie uma solicitação para [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
+
+## Perguntas frequentes {#faq}
+
+Leia o seguinte para obter respostas a perguntas frequentes sobre a avaliação vinculada ao uso dos agentes da Experience Platform.
+
+### O que é a avaliação vinculada ao uso dos agentes da Adobe Experience Platform?
+
+A avaliação vinculada ao uso dos agentes da Adobe Experience Platform permite que os clientes qualificados usem determinados agentes sem custo adicional de até 10.000 créditos de IA. O objetivo é fornecer um caminho de baixo atrito e baixo risco para obter o valor da experiência desses agentes antes que os clientes tomem uma decisão comercial.
+
+### Quais agentes estão incluídos neste teste?
+
+Leia o manual sobre [IA de Agente no Experience Cloud](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/agentic-ai) para obter uma lista completa dos Agentes incluídos na avaliação.
+
+### Quem pode participar deste teste?
+
+A versão de avaliação está sendo lançada em fases para que alguns clientes qualificados da Adobe Experience Cloud Adobe possam oferecer o suporte apropriado. Se você estiver interessado em participar, entre em contato com a equipe de conta da Adobe e ela poderá verificar seu status e discutir as opções de acesso.
+
+### Quantos créditos de IA eu recebo e o que acontece quando esses créditos de IA são usados?
+
+Os clientes qualificados recebem até 10.000 créditos de IA para a avaliação, que são consumidos à medida que os agentes executam tarefas. Observe que esses Créditos de IA só existem durante a experiência de avaliação e não são transferidos se você licenciar Créditos de IA adicionais antes de usar os 10.000 Créditos de IA completos. Para obter mais informações sobre o consumo de Crédito de IA, leia o [Guia de consumo de Crédito de IA e trabalhos do agente](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+
+### Isso custa alguma coisa?
+
+A versão de avaliação não requer nenhuma compra adicional. Não há conversão automática para uma oferta paga. Se você decidir continuar usando Agentes além da avaliação, sua equipe de conta da Adobe trabalhará com você para fazer a transição para uma oferta paga.
+
+### Quem pode ver o uso e como?
+
+Você pode rastrear seus créditos de IA usando o painel de uso de licença na interface do usuário do Adobe Experience Platform. Para obter mais informações, leia a [documentação do painel de uso da licença](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+
+Use o painel para exibir o uso e os relatórios dos seus créditos de IA. Somente administradores e usuários com as permissões apropriadas podem exibir suas informações de uso.
+
+### O que acontece depois que o julgamento termina?
+
+A avaliação termina quando você consumir o direito único inicial de até 10.000 créditos de IA ou depois de licenciar créditos de IA adicionais.
+
+Quando a avaliação terminar, você poderá optar por:
+
+- Não avançar
+   - Isso permitirá que a avaliação expire
+   - Seus produtos Adobe existentes continuam funcionando como antes, sem penalidade por não converter a avaliação
+- Avançar com o uso contínuo do agente
+   - Você pode trabalhar com a equipe de conta da Adobe para fazer a transição para uma oferta paga.
+
+Não há troca automática oculta para converter clientes cuja avaliação terminou em pagos.
 
 ## Recursos adicionais
 
