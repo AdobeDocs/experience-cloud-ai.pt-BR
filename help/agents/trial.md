@@ -16,7 +16,7 @@ ht-degree: 1%
 
 O vídeo a seguir é destinado a ajudá-lo a entender a avaliação vinculada ao uso dos Adobe Experience Platform Agents.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480228?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480233?captions=por_br&learn=on)
 
 ## O que está disponível com a avaliação
 
