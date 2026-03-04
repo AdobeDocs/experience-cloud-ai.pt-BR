@@ -4,10 +4,10 @@ description: Guia abrangente para o Journey Agent, permitindo que os usuários c
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 229d349d971ffaba3f2f2fb989e363d96a8d7a70
+source-git-commit: aba0b2f7f819f762c336c4dfeb952326a0814800
 workflow-type: tm+mt
-source-wordcount: '2147'
-ht-degree: 18%
+source-wordcount: '2608'
+ht-degree: 14%
 
 ---
 
@@ -18,19 +18,21 @@ ht-degree: 18%
 
 O Journey Agent permite que os usuários do Journey Optimizer criem, analisem e otimizem jornadas de marketing usando uma interface de linguagem natural. Com o Journey Agent, profissionais de marketing podem criar jornadas rapidamente, detectar e resolver conflitos de cronograma ou público-alvo, analisar o desempenho e os pontos de desistência e identificar as jornadas de melhor desempenho para replicá-lo em campanhas futuras. Ele capacita os profissionais a tomar decisões orientadas por dados, melhorar o envolvimento do cliente e simplificar a orquestração de jornadas.
 
-O Journey Agent consiste em duas habilidades principais:
-- **Criar Agente do Jornada**: criar e configurar jornadas de marketing por meio de prompts de linguagem natural
-- **Jornada Analyze Agent**: analise jornadas, detecte problemas, descubra insights e otimize o engajamento do cliente
+O Journey Agent consiste em três tarefas principais a serem realizadas:
 
-## Jornada Criar agente: visão geral e guia do usuário da habilidade
+- **Criação de Jornada**: criar e configurar jornadas de marketing por meio de prompts de linguagem natural
+- **Criação de Conteúdo de Canal**: gere, edite e gerencie conteúdo específico de canal (email, push, SMS) para jornada usando a geração de conteúdo habilitado por IA
+- **Analisar Jornada**: analise jornadas, detecte problemas, descubra insights e otimize o engajamento do cliente
+
+## Jornada Criar: Casos de uso, habilidades de agente e Guia do usuário
 
 ## Visão geral
 
-O Agente de criação de Jornada permite que os usuários do Journey Optimizer criem e configurem jornadas de marketing usando uma interface de linguagem natural. Com o Jornada Create Agent, os profissionais podem criar jornadas rapidamente descrevendo seus requisitos em prompts de conversa. O agente simplifica a criação de jornadas, permitindo que os profissionais de marketing se concentrem na estratégia em vez da configuração técnica.
+A Criação de jornadas permite que os usuários do Journey Optimizer criem e configurem jornadas de marketing usando uma interface de linguagem natural. Com a Criação de Jornadas, os profissionais podem criar jornadas rapidamente descrevendo seus requisitos em prompts de conversação. O agente simplifica a criação de jornadas, permitindo que os profissionais de marketing se concentrem na estratégia em vez da configuração técnica.
 
 >[!AVAILABILITY]
 >
->O Agente de criação de Jornada está disponível para todos os clientes que têm acesso ao Assistente de IA. No entanto, você precisará das seguintes permissões para usar totalmente os recursos Criar agente do Jornada:
+>A Criação de Jornada está disponível para todos os clientes que têm acesso ao Assistente de IA. No entanto, você precisará das seguintes permissões para usar totalmente os recursos Criar do Jornada:
 >
 >**Gerenciar Jornadas**: essa permissão permite que você crie novas jornadas diretamente no Assistente do AI.
 >
@@ -42,9 +44,9 @@ O Agente de criação de Jornada permite que os usuários do Journey Optimizer c
 
 ## Casos de uso
 
-### Principais casos de uso para o Agente de criação do Jornada
+### Principais casos de uso para criar Jornada
 
-A habilidade Criar agente da Jornada oferece recursos que podem ser aproveitados para acelerar a execução de marketing:
+O Jornada Create oferece recursos que podem ser aproveitados para acelerar a execução de marketing:
 
 1. **Criação de jornada acionada por evento**
 
@@ -78,7 +80,7 @@ Para cada um desses casos de uso, o agente traduz os requisitos de linguagem nat
 
 ### **No escopo**
 
-Os seguintes recursos são compatíveis com o Jornada Create Agent:
+Os seguintes recursos são compatíveis com a Criação de Jornada:
 
 - **Criação de jornada de linguagem natural**: permite que os usuários descrevam o fluxo de jornada em linguagem de conversação.
 - **jornadas baseadas em eventos e em público-alvo**: oferece suporte aos tipos de jornada baseados em acionadores e agendados, bem como à qualificação de eventos comerciais e públicos-alvo.
@@ -95,7 +97,6 @@ As seguintes funcionalidades não são compatíveis no momento:
 - **Orquestração entre jornadas**
 - **Configuração de teste A/B**
 - **Transformações de dados complexas**
-- **Criação da mensagem de conteúdo**
 
 ## Exemplos de prompts
 
@@ -141,7 +142,7 @@ O agente fornecerá orientação e exemplos para ajudar você a definir seus req
 
 ### Solicitação de práticas recomendadas
 
-Para maximizar a eficácia do Agente de criação do Jornada, siga estas práticas recomendadas:
+Para maximizar a eficácia da Criação de Jornadas, siga estas práticas recomendadas:
 
 1. **Seja específico**: forneça detalhes claros sobre suas metas do jornada, público-alvo e ações desejadas. Inclua informações sobre canais, tempo e condições.
 1. **Especificar Tempo**: indique claramente os períodos de espera entre as ações e quando a jornada deve começar.
@@ -159,13 +160,95 @@ Quando um usuário entrar no meu local de armazenamento, envie uma mensagem de b
 - **Conteúdo da Mensagem do Plano**: Defina sua estratégia de mensagens antes da criação da jornada.
 - **Considere a Experiência do Cliente**: crie fluxos de jornada que respeitem as preferências do cliente e evitem a comunicação excessiva.
 
-## Jornada Analyze Agent: visão geral e guia do usuário da habilidade
+## Criação de conteúdo do canal: Casos de uso, Habilidades do agente e Guia do usuário
+
+>[!AVAILABILITY]
+>
+>Este recurso está disponível para todos os clientes com Disponibilidade Limitada. Entre em contato com o representante da Adobe para obter acesso.
+
+## Visão geral
+
+A Criação de conteúdo de canal permite que os usuários do Journey Optimizer gerem, editem e gerenciem conteúdo específico de canal para jornada usando a geração de conteúdo habilitada por IA.
+
+## Casos de uso
+
+### Principais casos de uso para criação de conteúdo do canal
+
+1. **Geração de conteúdo específico do canal**: gere conteúdo para email, notificações por push, SMS e outros canais usando prompts de linguagem natural.
+
+1. **Criação de conteúdo baseado em modelo**: procure e selecione entre os modelos disponíveis com recursos de visualização.
+
+1. **Gerenciamento de conteúdo multicanal**: gere e gerencie conteúdo para vários canais no mesmo fluxo de trabalho de jornada.
+
+1. **Edição de conteúdo em contexto**: abra o conteúdo gerado no Designer de Conteúdo para edição e refinamento.
+
+1. **Refinamento e iteração de conteúdo**: gere novamente o conteúdo com tons ou estilos diferentes usando a ação Regenerar.
+
+1. **Integração com a tela do Jornada**: selecione jornadas no inventário e exiba canais associados.
+
+## Habilidades dentro e fora do escopo
+
+### **No escopo**
+
+Os seguintes recursos são compatíveis com a Criação de conteúdo de canal:
+
+- **Geração de conteúdo habilitada por IA**: gere conteúdo para email, push, SMS e outros canais usando prompts de linguagem natural.
+- **Gerenciamento de modelos**: procure e selecione entre os modelos disponíveis com recursos de visualização.
+- **Edição no contexto**: abra o conteúdo gerado no Designer de Conteúdo para edição e refinamento.
+- **Regeneração de conteúdo**: gere novamente o conteúdo com diferentes tons, estilos ou mensagens usando a ação Regenerar.
+- **Suporte a vários canais**: gere e gerencie conteúdo para vários canais no mesmo fluxo de trabalho do jornada.
+- **Acesso ao inventário da Jornada**: selecione jornadas no inventário e exiba canais associados.
+
+### **Fora de escopo**
+
+As seguintes funcionalidades não são compatíveis no momento:
+
+- **Verificações de alinhamento da marca e qualidade do conteúdo**
+- **Insira nós de conteúdo diretamente na tela de jornada**
+- **Importação de modelo**
+
+## Exemplos de prompts
+
+### Geração de conteúdo
+
+&quot;Gerar conteúdo de email para minha jornada de boas-vindas. Crie um email de boas-vindas para novos clientes com um tom amigável e inclua uma oferta de desconto de 10%.&quot;
+
+&quot;Adicionar conteúdo para email do canal da minha jornada de boas-vindas.&quot;
+
+&quot;Gerar uma notificação por push para minha jornada de visita à loja. Crie uma mensagem de boas-vindas que incentive os clientes a fazer o check-in e receber uma oferta especial.&quot;
+
+&quot;Gerar conteúdo de SMS para minha jornada acionada por evento. Crie uma mensagem curta notificando os clientes sobre uma venda rápida com um call-to-action.&quot;
+
+### Seleção de modelo
+
+&quot;Mostre-me os modelos de email disponíveis para a minha jornada de campanha sazonal.&quot;
+
+&quot;Selecione um modelo para meu email com um design moderno e limpo.&quot;
+
+### Edição e refinamento de conteúdo
+
+&quot;Abra o conteúdo do email no Designer de Conteúdo para que eu possa personalizar o design.&quot;
+
+&quot;Gere novamente o conteúdo da notificação por push com um tom mais casual.&quot;
+
+&quot;Atualize o conteúdo do email para incluir um código promocional.&quot;
+
+## Práticas recomendadas
+
+### Solicitação de práticas recomendadas
+
+1. **Seja específico**: forneça detalhes claros sobre o tipo de conteúdo, o tom, o público-alvo e as principais mensagens.
+1. **Especificar Canal**: indique claramente para qual canal você está criando conteúdo (email, push, SMS).
+1. **Definir Tom**: especifique o tom desejado (amigável, formal, casual, urgente).
+1. **Iterar e Refinar**: use a ação de regeneração para refinar o conteúdo até que ele atenda aos seus requisitos.
+
+## Análise de Jornada: casos de uso, habilidades agênicas e guia do usuário
 
 ## Visão geral
 
 O Journey Agent permitirá que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com o Journey Agent, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e/ou público-alvo, detectar pontos de abandono de usuários em uma jornada e fornecer insights ou recomendações. Ele capacita profissionais de marketing a tomar decisões baseadas em dados, melhorar o engajamento do cliente e simplificar a orquestração da jornada.
 
-Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/pt-br/slides/journey-agent-overview).
+Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -183,9 +266,9 @@ Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experien
 
 ## Casos de uso
 
-### Principais casos de uso da análise do Journey Agent
+### Principais casos de uso para análise de Jornada
 
-A habilidade de análise do Journey Agent oferece uma variedade de funcionalidades que podem ser aproveitadas para otimizar os esforços de marketing:
+O Jornada Analyze oferece uma variedade de funcionalidades que podem ser aproveitadas para otimizar esforços de marketing:
 
 1. **Análise de fallout da jornada**
 
@@ -215,7 +298,7 @@ Para cada uma dessas análises, o agente não apenas detecta problemas, mas tamb
 
 ### **Dentro do escopo**
 
-Os seguintes recursos são compatíveis com a análise do Journey Agent:
+Os seguintes recursos são compatíveis com o Jornada Analyze:
 
 - **Consultas reativas**: permite que usuários façam perguntas específicas sobre o desempenho da jornada, a utilização do público-alvo e conflitos de agendamento.
 - **Integração com outros agentes**: colabora com o Audience Agent e o Data Insights Agent para realizar análises mais aprofundadas.
@@ -295,7 +378,7 @@ Use estes prompts para analisar potenciais conflitos entre jornadas, incluindo s
 
 ### Práticas recomendadas de criação de prompts
 
-Para maximizar a eficácia da análise do Journey Agent, siga estas práticas recomendadas:
+Para maximizar a eficácia do Jornada Analyze, siga estas práticas recomendadas:
 
 1. **Seja específico(a)**: use prompts claros e concisos para obter insights direcionados. Por exemplo, em vez de perguntar &quot;Quais são minhas jornadas?&quot;, especifique &quot;Listar todas as jornadas criadas no último mês&quot;.
 1. **Combine insights**: integre insights do Audience Agent e do Data Insights Agent para obter uma visão integral do desempenho da jornada.
