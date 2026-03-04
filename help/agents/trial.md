@@ -16,7 +16,7 @@ ht-degree: 1%
 
 O vídeo a seguir é destinado a ajudá-lo a entender o teste dos agentes da Adobe Experience Platform.
 
->[!VIDEO](https://video.tv.adobe.com/v/3480228?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480233?captions=por_br&learn=on)
 
 ## O que está disponível com a avaliação
 
