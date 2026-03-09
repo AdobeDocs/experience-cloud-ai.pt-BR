@@ -16,7 +16,7 @@ Leia este documento para saber mais sobre os recursos focados na confiança do c
 
 * Nenhum dado pessoal está sendo usado pelo Assistente de IA hoje, mesmo para fins de treinamento.
 * O Assistente de IA não tem conhecimento dos dados do consumidor.
-* Todas as políticas existentes de [controle de acesso](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home) serão atendidas pelo Assistente de IA.
+* Todas as políticas existentes de [controle de acesso](https://experienceleague.adobe.com/pt-br/docs/experience-platform/access-control/home) serão atendidas pelo Assistente de IA.
    * Quaisquer novas políticas de controle de acesso baseadas em atributos serão refletidas no Assistente de IA após um máximo de 24 horas&ast;
 * O AI Assistant é um recurso pronto para HIPAA quando usado em combinação com o Adobe Experience Platform Healthcare Shield.
 * Você pode exibir um log de suas interações anteriores com o AI Assistant com uma política de retenção de 30 dias.
