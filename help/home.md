@@ -1,9 +1,9 @@
 ---
 title: IA em aplicativos da Experience Cloud
 description: Saiba como os aplicativos da Experience Cloud usam a IA generativa (GenAI), o Assistente de IA e a IA agêntica.
-source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
+source-git-commit: 73d63e310783310d0e6fb3d696ded7d4edb5bede
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '902'
 ht-degree: 3%
 
 ---
@@ -77,6 +77,16 @@ Use o Agente de Suporte do Produto para depuração e solução de problemas de 
 - Verifique as atualizações de tíquete por meio do Assistente de IA.
 
 Leia a [documentação do Agente de Suporte do Produto](./agents/product-support.md) para obter mais informações.
+
+#### Adobe Marketing Agent para [!DNL Microsoft 365 Copilot]
+
+Use o Adobe Marketing Agent para [!DNL Microsoft 365 Copilot] para recuperar insights de marketing do Experience Platform em aplicativos [!DNL Microsoft 365] como [!DNL Teams], [!DNL Word], [!DNL Powerpoint] e [!DNL Excel]. Com esse agente, você pode:
+
+- Tome decisões de marketing mais rápidas e orientadas por dados.
+- Reduza o tempo gasto alternando entre ferramentas.
+- Simplifique o acesso ao público-alvo e aos insights de jornada em equipes.
+
+Leia a [documentação do Adobe Marketing Agent](./agents/ama-ms.md) para obter mais informações.
 
 ## Introdução
 
