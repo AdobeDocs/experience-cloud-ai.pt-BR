@@ -1,10 +1,10 @@
 ---
 title: Guia da interface do Assistente de IA
 description: Saiba como acessar e usar o Assistente de IA na interface.
-source-git-commit: 434f438eca130ca76e5303ac7040082daaf46bc8
+source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
 workflow-type: tm+mt
-source-wordcount: '2093'
-ht-degree: 2%
+source-wordcount: '2162'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Consulte a tabela a seguir para obter uma comparação do Assistente de IA (Herd
 | Escopo dos recursos | Você pode usar o Assistente de IA (Herdado) para obter conhecimento sobre o produto e insights operacionais. | Você pode usar o Assistente de IA (Next-Gen) para obter conhecimento sobre produtos, insights operacionais, habilidades agênicas avançadas e execução de tarefas em várias etapas. |
 | Arquitetura da plataforma | O Assistente de IA (herdado) não foi criado na pilha do Agent Orchestrator. | O AI Assistant (Next-Gen) é disponibilizado pelo [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), permitindo extensibilidade e coordenação avançada entre recursos. |
 | Cobertura do aplicativo | O Assistente de IA (herdado) é uma implementação específica do aplicativo. | Você pode usar o Assistente de IA (Next-Gen) para obter uma experiência unificada de assistente de IA em todos os aplicativos da Adobe Experience Cloud. |
-| Modelo de acesso e permissão | Modelo de acesso com escopo de aplicativo alinhado aos limites individuais do produto. | Todos os usuários obtêm acesso ao AI Assistant (Next-Gen) e aos agentes associados da Experience Platform. **Nota**: <ul><li>**Adobe Experience Manager**: o administrador deve conceder a você permissão para acessar o Assistente de IA (Próxima Geração) por meio da [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: o administrador deve conceder a você permissão para acessar o Assistente de IA por meio do [Controle de Acesso do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/technotes/access-control?lang=en). Isso permite fazer perguntas sobre conhecimento do produto e insights de dados. |
+| Modelo de acesso e permissão | Modelo de acesso com escopo de aplicativo alinhado aos limites individuais do produto. | Todos os usuários obtêm acesso ao AI Assistant (Next-Gen) e aos agentes associados da Experience Platform. **Nota**: <ul><li>**Adobe Experience Manager**: o administrador deve conceder a você permissão para acessar o Assistente de IA (Próxima Geração) por meio da [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: o administrador deve conceder a você permissão para acessar o Assistente de IA por meio do [Controle de Acesso do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control?lang=en). Isso permite fazer perguntas sobre conhecimento do produto e insights de dados. |
 
 O AI Assistant é uma ferramenta de IA conversacional e gerativa inteligente que impulsionará a produtividade e redefinirá o trabalho em aplicativos baseados em Adobe Experience Platform. Você pode usar o Assistente de IA para acessar os Agentes do Adobe Experience Platform e outros recursos de IA.
 
@@ -210,7 +210,7 @@ A janela pop-up *[!UICONTROL Resposta de...]* é exibida. Use esta janela para c
 | --- | --- | --- |
 | Aplicativo | O aplicativo do Experience Cloud ao qual sua consulta pertence. | Experience Platform, Journey Optimizer, Customer Journey Analytics etc. |
 | Sandbox | A sandbox que contém o(s) conjunto(s) de dados ou as informações às quais sua consulta pertence. | Prod (VA7), Desenvolvimento |
-| Exibição de dados | Quando você está usando o Assistente de IA com o Customer Journey Analytics, a configuração da exibição de dados ajuda a Data Insights Agent a entender: <ul><li>Quais conjuntos de dados consultar</li><li>Quais componentes de dados estão disponíveis</li><li>Como estruturar respostas sobre seus dados</li><li>Quais visualizações criar no Analysis Workspace</li></ul> |
+| Exibição de dados | Quando você está usando o Assistente de IA com o Customer Journey Analytics, a configuração da exibição de dados ajuda a Data Insights Agent a entender: <ul><li>Quais conjuntos de dados consultar</li><li>Quais componentes de dados estão disponíveis</li><li>Como estruturar respostas sobre seus dados</li><li>Quais visualizações criar no Analysis Workspace</li></ul> | |
 
 ![O painel &quot;Responder de&quot; onde as fontes de informações podem ser configuradas.](./images/ai-assistant/inputs/answer-from.png)
 

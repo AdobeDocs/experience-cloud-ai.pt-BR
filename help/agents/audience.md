@@ -1,9 +1,9 @@
 ---
 title: Audience Agent
 description: Saiba como usar o Audience Agent para criar públicos, exibir alterações de público, detectar públicos duplicados e exibir insights do público.
-source-git-commit: effd4fe4123953b6af375dfb46fcc669b2e35df1
+source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1242'
 ht-degree: 2%
 
 ---
@@ -38,14 +38,16 @@ O Audience Agent no Assistente de IA é compatível com os seguintes casos de us
    - Essa habilidade permite criar um público-alvo com base nos atributos e eventos fornecidos
    - Além disso, essa habilidade permite estimar o tamanho potencial de um público antes de criá-lo, permitindo que você repita rapidamente no público mais eficiente antes que ele esteja pronto para ser ativado
 
-<!-- - Find your audience size and detect significant changes in audience size
+<!--
+  - Find your audience size and detect significant changes in audience size
   - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
 - Detect duplicate audiences
   - This lets you reduce redundancies with your created audiences
 - Find audiences based on full or partial attributes named
   - This lets you more easily navigate through your audience inventory
 - Discover XDM fields you can use to define an audience
-  - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
+  - This skill lets you more easily identify the right fields to use in your audience based on context and relevance 
+-->
 
 A Audience Agent não **oferece suporte ao seguinte recurso no momento**:
 
@@ -214,7 +216,7 @@ Para esta consulta, o Assistente de IA gera a Profile Query Language (PQL) relev
 homeAddress.state.equals("California", false)
 ```
 
-Para obter mais informações sobre o PQL, leia a [visão geral do PQL](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/pql/overview).
+Para obter mais informações sobre o PQL, leia a [visão geral do PQL](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
 
 +++
 
