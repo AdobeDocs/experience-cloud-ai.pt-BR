@@ -1,9 +1,9 @@
 ---
 title: Adobe Marketing Agent for Microsoft 365 Copilot
 description: Saiba como usar o Adobe Marketing Agent for Microsoft 365 Copilot.
-source-git-commit: 5cf5e42c727cd5e48b1b817e150fb9862fc80c82
+source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1843'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Antes de poder usar o Adobe Marketing Agent para [!DNL Microsoft 365 Copilot], p
 
 ## Habilitar o agente para sua organização {#enable-the-agent-for-your-organization}
 
-Os usuários finais só podem usar o Adobe Marketing Agent depois que ele é disponibilizado em seu locatário do [!DNL Microsoft 365]. **Trabalhe com o [!DNL Microsoft 365] administrador do Copilot** (ou administrador equivalente para agentes do Copilot em sua organização) para habilitar o acesso e atribuir o agente conforme a necessidade da organização.
+Os usuários finais só podem usar o Adobe Marketing Agent depois que ele é disponibilizado em seu locatário do [!DNL Microsoft 365]. **Trabalhe com o [!DNL Microsoft 365] administrador do Copilot** (ou administrador equivalente para agentes do Copilot em sua organização) para habilitar o acesso e atribuir o agente conforme a organização exigir.
 
 Os resultados típicos após a configuração do administrador incluem:
 
@@ -122,6 +122,10 @@ O agente deve retornar insights somente leitura e não modifica os dados do clie
 **Idiomas e escopo com suporte**
 
 A versão inicial está disponível em inglês. Os recursos estão limitados a insights somente leitura; o agente não cria ou atualiza ativos ou configurações de marketing.
+
+>[!IMPORTANT]
+>
+>O Adobe Marketing Agent invoca diferentes agentes e trabalhos do Adobe, dependendo dos prompts enviados. Esse agente Adobe subjacente que é chamado utiliza créditos de IA, conforme indicado na página [Trabalhos de agente do Adobe Experience Platform e consumo de créditos de IA](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
 
 ## Apêndice
 
