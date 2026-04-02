@@ -125,7 +125,7 @@ A versão inicial está disponível em inglês. Os recursos estão limitados a i
 
 >[!IMPORTANT]
 >
->O Adobe Marketing Agent invoca diferentes agentes e trabalhos do Adobe, dependendo dos prompts enviados. Esse agente Adobe subjacente que é chamado utiliza créditos de IA, conforme indicado na página [Trabalhos de agente do Adobe Experience Platform e consumo de créditos de IA](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+>O Adobe Marketing Agent invoca diferentes agentes e trabalhos do Adobe, dependendo dos prompts enviados. Esse agente Adobe subjacente que é chamado utiliza créditos de IA, conforme indicado na página [Trabalhos de agente do Adobe Experience Platform e consumo de créditos de IA](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/ai-credit-consumption).
 
 ## Apêndice
 
