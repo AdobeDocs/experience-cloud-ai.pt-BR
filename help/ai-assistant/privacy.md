@@ -23,4 +23,4 @@ Leia este documento para saber mais sobre os recursos focados na confiança do c
 * O Assistente de IA é baseado em dados específicos da sandbox e na documentação pública do Adobe ao responder aos prompts do usuário. Os dados não são compartilhados em sandboxes.
 * Os prompts fornecidos ao Assistente de IA não são compartilhados com outros clientes.
 
-&amp;ast; *Isso implica que se quaisquer novos rótulos forem adicionados aos campos e objetos ou qualquer nova política for criada, o Assistente de IA levará até 24 horas para honrá-los. Durante essas 24 horas, os usuários com acesso recém-restrito ainda poderão acessar esses campos e objetos.*
+&ast; *Isso implica que se quaisquer novos rótulos forem adicionados aos campos e objetos ou qualquer nova política for criada, o Assistente de IA levará até 24 horas para honrá-los. Durante essas 24 horas, os usuários com acesso recém-restrito ainda poderão acessar esses campos e objetos.*
