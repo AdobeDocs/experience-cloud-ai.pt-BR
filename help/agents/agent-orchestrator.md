@@ -1,10 +1,10 @@
 ---
 title: Adobe Experience Platform Agent Orchestrator
 description: Saiba mais sobre o Agent Orchestrator da Experience Platform.
-source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
+source-git-commit: bb199c84259f65487e3aafa5ae1e62e09f82829c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 10%
+source-wordcount: '966'
+ht-degree: 9%
 
 ---
 
@@ -51,6 +51,14 @@ Para obter mais informações sobre a disponibilidade de Agentes nos aplicativos
 ### Knowledge base {#knowledge-base}
 
 A base de conhecimento fornece aos agentes acesso seguro à inteligência de negócios do cliente por meio de fontes de dados estruturadas e não estruturadas, incluindo documentação de produtos da Adobe, metadados de clientes sobre objetos de negócios e dados de análise.
+
+## Ecossistema {#ecosystem}
+
+O ecossistema do Agent Orchestrator inclui os seguintes agentes:
+
+| Agente | Detalhes |
+| --- | --- |
+| [Adobe Marketing Agent for Microsoft 365 Copilot](ama-ms.md) | Use o Adobe Marketing Agent para [!DNL Microsoft 365 Copilot] para recuperar insights de marketing do Experience Platform em aplicativos [!DNL Microsoft 365] como [!DNL Teams], [!DNL Word], [!DNL Powerpoint] e [!DNL Excel]. Com esse agente, você pode: <ul><li>Tome decisões de marketing mais rápidas e orientadas por dados.</li><li>Reduza o tempo gasto alternando entre ferramentas.</li><li>Simplifique o acesso ao público-alvo e aos insights de jornada em equipes.</li></ul> |
 
 ## Acesso {#access}
 
