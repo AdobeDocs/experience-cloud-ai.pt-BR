@@ -1,10 +1,21 @@
 ---
 title: Avaliação de agentes da Adobe Experience Platform
 description: Saiba mais sobre a avaliação complementar para agentes do Adobe Experience Platform.
-source-git-commit: 268098d64d80d25d390743cf2b888a0aea429a0d
+TQID: https://experienceleague.adobe.com/3ar5j-6IYEk2w6oyvR6JCuaw2Zrrp2DxUri5EvI0QN0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 1%
+source-wordcount: 1107
+ht-degree: 4%
 
 ---
 
@@ -61,7 +72,7 @@ Leia o manual sobre [IA de Agente no Experience Cloud](https://experienceleague.
 
 ### Quem pode participar deste teste?
 
-A versão de avaliação está sendo lançada em fases para que alguns clientes qualificados da Adobe Experience Cloud Adobe possam oferecer o suporte apropriado. Se você estiver interessado em participar, entre em contato com a equipe de conta da Adobe e ela poderá verificar seu status e discutir as opções de acesso.
+A versão de avaliação está sendo lançada em fases para que alguns clientes qualificados da Adobe Experience Cloud possam oferecer o suporte apropriado. Se você estiver interessado em participar, entre em contato com a equipe de conta da Adobe e ela poderá verificar seu status e discutir as opções de acesso.
 
 ### Quantos créditos de IA eu recebo e o que acontece quando esses créditos de IA são usados?
 

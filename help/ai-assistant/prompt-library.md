@@ -1,10 +1,22 @@
 ---
 title: Biblioteca de prompts do assistente do AI
 description: Saiba mais sobre os diferentes tipos de prompts e padrões de prompt que você pode usar ao consultar o Assistente de IA.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+TQID: https://experienceleague.adobe.com/QICjh9cNBT3XeKObkXqSDEGQT26zpv86V36L0tqvSgo
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 3%
+source-wordcount: 813
+ht-degree: 16%
 
 ---
 
@@ -43,48 +55,48 @@ As seções a seguir fornecem exemplos de prompts que você pode usar com o Audi
 
 Os prompts de exemplo a seguir podem ser usados com o Data Insights Agent para analisar seus dados, identificar tendências e descobrir insights acionáveis.
 
-### Visualização de dados
+### Data visualization
 
-- &quot;Mostre-me lucros em setembro.&quot;
-- &quot;Pedidos em tendência em setembro.&quot;
-- &quot;Mostre a receita por região em setembro.&quot;
-- &quot;Participação da receita por categoria de produto.&quot;
-- &quot;Pedidos por dia da semana, de janeiro a maio.&quot;
-- &quot;Mostre pedidos por gênero, de março a junho.&quot;
-- &quot;Qual é o lucro em SKUs de fevereiro a maio?&quot;
-- &quot;Receita por nome de loja em setembro.&quot;
-- &quot;Quais foram meus 10 SKUs principais por lucro em setembro?&quot;
-- &quot;Proporção de compras por mês do ano.&quot;
-- &quot;Lucro total em setembro.&quot;
+- &quot;Show me profits in September.&quot;
+- &quot;Trend orders in September.&quot;
+- &quot;Show revenue by region in September.&quot;
+- &quot;Share of revenue by product category.&quot;
+- &quot;Orders by day of week, from January to May.&quot;
+- &quot;Show orders by gender, from March to June.&quot;
+- &quot;What is the profit across SKUs from February to May.&quot;
+- &quot;Revenue by store name in September.&quot;
+- &quot;What were my top 10 SKUs by profit in September?&quot;
+- &quot;Proportion of purchases by month of year.&quot;
+- &quot;Total profit in September.&quot;
 
 ## Journey Agent
 
-Os exemplos de prompts a seguir podem ser usados com o Journey Agent para ajudar você a analisar ciclos de vida de jornadas, gerenciar recursos de jornadas, obter insights sobre relacionamentos de público-alvo e jornada e detectar conflitos entre jornadas. Use essas instruções para otimizar a orquestração de jornadas e resolver problemas com eficiência.
+The following example prompts can be used with the Journey Agent to help you analyze journey lifecycles, manage journey resources, gain insights into audience and journey relationships, and detect conflicts between journeys. Use these prompts to optimize your journey orchestration and resolve issues efficiently.
 
 ### Perguntas sobre o ciclo de vida da jornada
 
-- &quot;Quando o {JOURNEY_NAME} foi publicado?&quot;
-- &quot;Quando {JOURNEY_NAME} foi interrompido?&quot;
-- &quot;Listar todas as jornadas atualmente no modo de teste&quot;
+- &quot;When was {JOURNEY_NAME} published?&quot;
+- &quot;When was {JOURNEY_NAME} stopped?&quot;
+- &quot;List all journeys currently in test mode&quot;
 
 ### Perguntas sobre os recursos da jornada
 
-- &quot;Quantas jornadas ao vivo eu tenho?&quot;
-- &quot;Forneça uma lista de todas as jornadas recorrentes agendadas e seus tempos de execução esperados.&quot;
+- &quot;How many live journeys do I have?&quot;
+- &quot;Give me a list of all scheduled recurring journeys and their expected run times.&quot;
 
 ### Insights de público-alvo e de jornada
 
-- &quot;Quais públicos-alvo são usados em mais de X jornadas?&quot;
-- &quot;Liste todas as jornadas usando o público-alvo {AUDIENCE_NAME}.&quot;
+- &quot;Which audiences are used in more than X journeys?&quot;
+- &quot;List all journeys using the {AUDIENCE_NAME} audience.&quot;
 
 ### Prompts de análise de conflitos
 
 Use estes prompts para analisar potenciais conflitos entre jornadas, incluindo sobreposições de agendamento e de público-alvo:
 
-+++Selecione para exibir a lista
++++Select to view list
 
-- &quot;Você pode fazer uma análise abrangente dos conflitos para nossa jornada {JOURNEY_NAME} com informações de tipo de conflito (agendamento/público-alvo) com jornadas ativas/em execução?&quot;
-- &quot;Faça uma análise de conflito de agendamento para a jornada {JOURNEY_NAME} com informações de tipo de conflito.&quot;
+- &quot;Can you do a comprehensive analysis of conflicts for our journey {JOURNEY_NAME} with conflict type (scheduling/audience) information with live/running journeys?&quot;
+- &quot;Please do a scheduling conflict analysis for journey {JOURNEY_NAME} with conflict type information.&quot;
 - &quot;Faça uma análise de sobreposição de público-alvo para a jornada {JOURNEY_NAME} com informações de tipo de conflito.&quot;
 - &quot;Há algum conflito de agendamento para a jornada {JOURNEY_NAME}?&quot;
 - &quot;Mostrar conflitos de sobreposição de público-alvo para a jornada {JOURNEY_NAME}.&quot;
@@ -115,7 +127,7 @@ Use estes prompts para analisar potenciais conflitos entre jornadas, incluindo s
 
 O Agente de suporte do produto ajuda a solucionar problemas, criar casos de suporte e rastrear o status dos tíquetes de suporte. Use os seguintes prompts de exemplo para obter assistência.
 
-### Ajuda para solução de problemas
+### Troubleshooting help
 
 - &quot;Por que minha contagem de perfis é diferente no Painel de Uso da Licença e na home page do Experience Platform?&quot;
 - &quot;Quais são as razões para uma jornada não ser acionada?&quot;

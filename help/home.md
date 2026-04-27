@@ -1,9 +1,23 @@
 ---
 title: IA em aplicativos da Experience Cloud
 description: Saiba como os aplicativos da Experience Cloud usam a IA generativa (GenAI), o Assistente de IA e a IA agêntica.
-source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
+TQID: https://experienceleague.adobe.com/heALjEZbowNaygG24oOM2HSlHa9oYVI5ViUNZDr19Ds
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: 846
 ht-degree: 4%
 
 ---
@@ -44,39 +58,39 @@ O [Assistente de IA](./ai-assistant/ai-assistant-ui.md) é uma ferramenta de IA 
 A Audience Agent fornece insights sobre públicos-alvo, incluindo:
 
 - Detecção de alterações significativas no tamanho do público.
-- Identificação de públicos-alvo duplicados.
-- Explorar o inventário de público-alvo.
-- Recuperação de tamanhos de público-alvo.
+- Identifying duplicate audiences.
+- Exploring audience inventory.
+- Retrieving audience sizes.
 
-Leia a [documentação do Audience Agent](./agents/audience.md) para obter mais informações.
+Read the [Audience Agent documentation](./agents/audience.md) for more information.
 
 #### Data Insights Agent
 
-Disponível na Customer Journey Analytics, a Data Insights Agent:
+Available in Customer Journey Analytics, the Data Insights Agent:
 
-- Responde perguntas sobre seus dados usando a linguagem natural.
-- Cria visualizações relevantes no Analysis Workspace.
-- Usa componentes da sua visualização de dados e dados reais.
+- Answers questions about your data using natural language.
+- Builds relevant visualizations in Analysis Workspace.
+- Uses components from your dataview and actual data.
 
-#### Agente de análise de Jornada
+#### Journey Analyze Agent
 
-O Jornada Analyze Agent permite que os usuários do Adobe Journey Optimizer:
+The Journey Analyze Agent enables the Adobe Journey Optimizer users to:
 
-- Analise e otimize jornadas usando a linguagem natural.
-- Detectar e resolver conflitos de agendamento ou público-alvo.
-- Analise o desempenho e os pontos de devolução.
+- Analyze, and optimize journeys using natural language.
+- Detect and resolve schedule or audience conflicts.
+- Analyze performance and drop-off points.
 
-Leia a [documentação do Journey Agent](./agents/ajo-agent.md) para obter mais informações.
+Read the [Journey Agent documentation](./agents/ajo-agent.md) for more information.
 
 #### Agente de suporte ao produto
 
-Use o Agente de Suporte do Produto para depuração e solução de problemas de autoatendimento:
+Use the Product Support Agent for self-serve debugging and troubleshooting:
 
-- Solucionar problemas de recursos do Adobe Experience Platform sem sair dos fluxos de trabalho.
-- Criar tíquetes de suporte com contexto de interações do Assistente de IA.
-- Verifique as atualizações de tíquete por meio do Assistente de IA.
+- Troubleshoot Adobe Experience Platform features without leaving workflows.
+- Create support tickets with context from AI Assistant interactions.
+- Check ticket updates through AI Assistant.
 
-Leia a [documentação do Agente de Suporte do Produto](./agents/product-support.md) para obter mais informações.
+Read the [Product Support Agent documentation](./agents/product-support.md) for more information.
 
 <!--
 #### Adobe Marketing Agent for [!DNL Microsoft 365 Copilot]
@@ -92,13 +106,13 @@ Read the [Adobe Marketing Agent documentation](./agents/ama-ms.md) for more info
 
 ## Introdução
 
-### Requisitos de acesso
+### Access requirements
 
-Para usar o AI Assistant e os Experience Platform Agents, o administrador do Adobe precisa configurar as permissões apropriadas:
+To use AI Assistant and Experience Platform Agents, your Adobe Admin needs to set up the appropriate permissions:
 
-- Para usar o Assistente de IA no Real-Time CDP e no Adobe Journey Optimizer, você precisa da permissão &quot;Habilitar o Assistente de IA&quot;, bem como da permissão &quot;Exibir Insights Operacionais&quot; para acessar perguntas operacionais.
-- O acesso ao Assistente de IA no Customer Journey Analytics é gerenciado por meio do Controle de acesso da Customer Journey Analytics, que permite fazer perguntas sobre conhecimento do produto e insights de dados.
-- No Adobe Experience Manager, você pode acessar o Assistente de IA por meio de permissões definidas no Adobe Admin Console.
+- To use AI Assistant within Real-Time CDP and Adobe Journey Optimizer, you need the &quot;Enable AI Assistant&quot; permission, as well as the &quot;View Operational Insights&quot; permission to access operational questions.
+- Access to AI Assistant in Customer Journey Analytics is managed through Customer Journey Analytics Access Control, which allows you to ask both product knowledge and data insights questions.
+- For Adobe Experience Manager, you can access AI Assistant through permissions set in the Adobe Admin Console.
 
 ### Privacidade e segurança
 

@@ -1,10 +1,20 @@
 ---
 title: Aviso de isenção legal - Dados pessoais, Suporte de idioma e Verificação de respostas
 description: Saiba mais sobre isenções de responsabilidade legais relacionadas a dados pessoais, suporte de idioma e verificação de respostas ao usar o Assistente de IA.
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+TQID: https://experienceleague.adobe.com/yfjRu87Nfi1tYchKcfUY79g-13A319iW6g8splURndw
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 22%
+source-wordcount: 232
+ht-degree: 0%
 
 ---
 
@@ -14,7 +24,7 @@ Leia este documento para obter informações sobre isenções de responsabilidad
 
 ## Dados pessoais {#personal-data}
 
-O Assistente de IA usa um chatbot automatizado. Se você fizer uso deste chatbot automatizado estará consentindo que as informações fornecidas na sessão de chat sejam coletadas, usadas, divulgadas e retidas pela Adobe e pelos provedores de serviços que atuam em nome da Adobe, de acordo com os termos do contrato entre a organização e a Adobe.
+O Assistente de IA usa um chatbot automatizado. O uso deste chatbot automatizado constitui o consentimento de que as informações fornecidas na sessão de chat serão coletadas, usadas, divulgadas e retidas pela Adobe e por provedores de serviços que atuam em nome da Adobe de acordo com os termos do contrato entre sua organização e a Adobe.
 
 Se você precisar incluir dados pessoais aqui, adicione apenas o que for necessário e somente se você tiver o direito de usá-los.
 
