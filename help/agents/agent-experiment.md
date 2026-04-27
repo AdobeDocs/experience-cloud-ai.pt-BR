@@ -38,7 +38,7 @@ As permissões a seguir para usar totalmente os recursos do Experimentation Agen
 
 * **Gerenciar metadados do experimento**: essa permissão permite que você use a Experimentation Agent para criar novos experimentos diretamente no Assistente de IA.
 
-➡️ [Saiba mais na documentação do Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [Saiba mais na documentação do Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/pt-br/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Como parte do recurso do Experimentation Accelerator, o Agente oferece:
 
