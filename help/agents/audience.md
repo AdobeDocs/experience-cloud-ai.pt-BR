@@ -1,13 +1,16 @@
 ---
 title: Audience Agent
 description: Saiba como usar o Audience Agent para criar públicos, exibir alterações de público, detectar públicos duplicados e exibir insights do público.
-source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
+TQID: https://experienceleague.adobe.com/574QhqKI0YDoPHD9BFmB6jl-HET3zVom3eD4cJQABSE
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: 1242
 ht-degree: 2%
 
 ---
-
 
 # Audience Agent
 
@@ -132,51 +135,51 @@ Identifique públicos-alvo de conta que tenham as mesmas regras, mas nomes difer
 
 +++ Resposta
 
-![O Assistente de IA exibe uma tabela que contém os nomes e as IDs dos públicos-alvo da conta que compartilham as mesmas regras de público-alvo.](./images/audience/duplicate-account-audience.png)
+![The AI Assistant displays a table that contains the names and IDs of account audiences that share the same audience rules.](./images/audience/duplicate-account-audience.png)
 
 +++
 
 ### Recuperar tamanho do público
 
-Qual é o tamanho atual do meu público-alvo &quot;Membros Gold-star na Califórnia_f153e1&quot;?
+What is the current size of my audience &quot;Gold-star Members in California_f153e1&quot;?
 
 +++ Resposta
 
-![O Assistente de IA informa o tamanho atual do público-alvo que foi perguntado.](./images/audience/current-size.png)
+![The AI Assistant states the current size of the audience that was asked about.](./images/audience/current-size.png)
 
 +++
 
-Qual é o meu maior público-alvo?
+What is my biggest audience?
 
 +++ Resposta
 
-![O Assistente de IA fornece informações sobre o público-alvo com mais perfis, incluindo nome e ID de público-alvo.](./images/audience/largest-audience.png)
+![The AI Assistant gives information about the audience with the most profiles, including name and audience ID.](./images/audience/largest-audience.png)
 
 +++
 
 ### Detectar alterações significativas no tamanho do público
 
-Quais públicos-alvo aumentaram de tamanho em mais de 20% na última semana?
+Which audiences have increased in size by more than 20% in the last week?
 
 +++ Resposta
 
-![O Assistente de IA exibe uma tabela que lista os nomes de todos os públicos-alvo que correspondem à consulta. Ele também mostra o aumento percentual, o tamanho do público-alvo atual, bem como o tamanho do público-alvo anterior.](./images/audience/increase-past-week.png)
+![The AI Assistant displays a table that lists the names of all the audiences that match the query. It also shows the percentage increase, the current audience size, as well as the former audience size.](./images/audience/increase-past-week.png)
 
 +++
 
-Quais públicos-alvo diminuíram em tamanho em mais de 10% no último mês?
+Which audiences have decreased in size by more than 10% in the last month?
 
 +++ Resposta
 
-![O Assistente de IA exibe uma tabela que lista os nomes de todos os públicos-alvo que correspondem à consulta. Ele também mostra o tamanho atual do público, o tamanho anterior do público, bem como a data do tamanho antigo do público.](./images/audience/decrease-month.png)
+![The AI Assistant displays a table that lists the names of all the audiences that match the query. It also shows the current audience size, the former audience size, as well as the date of the old audience size.](./images/audience/decrease-month.png)
 
 +++
 
-Qual é o meu público que cresce mais rápido?
+What is my fastest growing audience?
 
 +++ Resposta
 
-![O Assistente de IA informa o nome do público-alvo que cresce mais rápido, bem como o tamanho atual e a porcentagem de crescimento.](./images/audience/fastest-growing.png)
+![The AI Assistant states the name of the fastest growing audience, as well as the current size and the percentage of growth.](./images/audience/fastest-growing.png)
 
 +++
 
@@ -184,21 +187,21 @@ Qual é o meu público que cresce mais rápido?
 
 >[!AVAILABILITY]
 >
->Você só poderá usar a habilidade criar público-alvo se fizer parte do programa Agent Orchestrator Explorer. Para obter mais informações, entre em contato com o Atendimento ao cliente da Adobe.
+>You can only use the create audience skill if you are part of the Agent Orchestrator Explorer program. For more information, contact Adobe Customer Care.
 
-Ao criar um público-alvo com o Audience Agent, o Assistente de IA orientará você em um plano. Por exemplo, você pode pedir para &quot;Criar um público-alvo composto por pessoas que vivem na Califórnia&quot;. O Assistente de IA lista o plano que ele executará para criar o público-alvo.
+When you create an audience with Audience Agent, AI Assistant will guide you through a plan. For example, you can ask to &quot;Create an audience made up of people who live in California&quot;. AI Assistant then lists the plan that it will undertake to create the audience.
 
 +++ Resposta
 
-![O Assistente de IA mostra o plano para criar um público-alvo.](./images/audience/audience-create-plan.png)
+![The AI Assistant shows the plan to create an audience.](./images/audience/audience-create-plan.png)
 
 +++
 
-Este plano é composto por três etapas:
+This plan is made up of three steps:
 
-1. [Identificar características do público](#identify)
-2. [Estimar tamanho do público](#estimate)
-3. [Criar e criar um novo público-alvo persistente](#create)
+1. [Identify audience characteristics](#identify)
+2. [Estimate audience size](#estimate)
+3. [Create and persist a new audience](#create)
 
 #### Identificar características do público {#identify}
 
@@ -216,7 +219,7 @@ Para esta consulta, o Assistente de IA gera a Profile Query Language (PQL) relev
 homeAddress.state.equals("California", false)
 ```
 
-Para obter mais informações sobre o PQL, leia a [visão geral do PQL](https://experienceleague.adobe.com/pt-br/docs/experience-platform/segmentation/pql/overview).
+Para obter mais informações sobre o PQL, leia a [visão geral do PQL](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview).
 
 +++
 

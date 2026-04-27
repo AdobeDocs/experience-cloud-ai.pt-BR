@@ -1,9 +1,13 @@
 ---
 title: Guia da interface do Assistente de IA
 description: Saiba como acessar e usar o Assistente de IA na interface.
-source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
+TQID: https://experienceleague.adobe.com/MWhVCqUFt5Qze4mQp-G85OF81Mk1OL4xY8Jygm-B4PI
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: 2162
 ht-degree: 3%
 
 ---
@@ -22,7 +26,7 @@ Consulte a tabela a seguir para obter uma comparação do Assistente de IA (Herd
 | Escopo dos recursos | Você pode usar o Assistente de IA (Herdado) para obter conhecimento sobre o produto e insights operacionais. | Você pode usar o Assistente de IA (Next-Gen) para obter conhecimento sobre produtos, insights operacionais, habilidades agênicas avançadas e execução de tarefas em várias etapas. |
 | Arquitetura da plataforma | O Assistente de IA (herdado) não foi criado na pilha do Agent Orchestrator. | O AI Assistant (Next-Gen) é disponibilizado pelo [Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/pt-br/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator), permitindo extensibilidade e coordenação avançada entre recursos. |
 | Cobertura do aplicativo | O Assistente de IA (herdado) é uma implementação específica do aplicativo. | Você pode usar o Assistente de IA (Next-Gen) para obter uma experiência unificada de assistente de IA em todos os aplicativos da Adobe Experience Cloud. |
-| Modelo de acesso e permissão | Modelo de acesso com escopo de aplicativo alinhado aos limites individuais do produto. | Todos os usuários obtêm acesso ao AI Assistant (Next-Gen) e aos agentes associados da Experience Platform. **Nota**: <ul><li>**Adobe Experience Manager**: o administrador deve conceder a você permissão para acessar o Assistente de IA (Próxima Geração) por meio da [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: o administrador deve conceder a você permissão para acessar o Assistente de IA por meio do [Controle de Acesso do Customer Journey Analytics](https://experienceleague.adobe.com/pt-br/docs/analytics-platform/using/technotes/access-control?lang=en). Isso permite fazer perguntas sobre conhecimento do produto e insights de dados. |
+| Modelo de acesso e permissão | Modelo de acesso com escopo de aplicativo alinhado aos limites individuais do produto. | Todos os usuários obtêm acesso ao AI Assistant (Next-Gen) e aos agentes associados da Experience Platform. **Nota**: <ul><li>**Adobe Experience Manager**: o administrador deve conceder a você permissão para acessar o Assistente de IA (Próxima Geração) por meio da [Adobe Admin Console](https://helpx.adobe.com/br/enterprise/using/admin-console.html).</li><li>**Customer Journey Analytics**: o administrador deve conceder a você permissão para acessar o Assistente de IA por meio do [Controle de Acesso do Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control?lang=en). Isso permite fazer perguntas sobre conhecimento do produto e insights de dados. |
 
 O AI Assistant é uma ferramenta de IA conversacional e gerativa inteligente que impulsionará a produtividade e redefinirá o trabalho em aplicativos baseados em Adobe Experience Platform. Você pode usar o Assistente de IA para acessar os Agentes do Adobe Experience Platform e outros recursos de IA.
 
@@ -214,41 +218,41 @@ A janela pop-up *[!UICONTROL Resposta de...]* é exibida. Use esta janela para c
 
 ![O painel &quot;Responder de&quot; onde as fontes de informações podem ser configuradas.](./images/ai-assistant/inputs/answer-from.png)
 
-### Preenchimento automático de dados e objetos
+### Data and object autocomplete
 
-Você pode usar a função de preenchimento automático para receber uma lista de objetos de dados que existem na sandbox. Para usar o preenchimento automático, insira o ícone de adição (+) na consulta. Como alternativa, você também pode selecionar o ícone de adição (+) localizado na parte inferior da caixa de entrada de texto. Uma janela é exibida com uma lista de objetos de dados recomendados da sandbox.
+You can use the autocomplete function to receive a list of data objects that exist in your sandbox. To use autocomplete, input the plus icon (+) in your query. As an alternative, you can also select the plus icon (+) located at the bottom of the text input box. A window appears with a list of recommended data objects from your sandbox.
 
-![Botão de preenchimento automático de dados e objeto selecionado.](./images/ai-assistant/autocomplete/autocomplete.png)
+![The data and object autocomplete button selected.](./images/ai-assistant/autocomplete/autocomplete.png)
 
-### Verificar respostas
+### Verify responses
 
-Há várias maneiras de verificar as respostas do Assistente de IA. Selecione **[!UICONTROL Termo de consulta correspondente a objetos]** para exibir um resumo dos termos na sua consulta que corresponderam a objetos específicos na sua organização.
+There are a number of ways that you can verify responses from AI Assistant. Select **[!UICONTROL Query Term Matched to Objects]** to view a summary of the terms in your query that were matched to specific objects in your organization.
 
-![Os termos da consulta corresponderam à sua resposta.](./images/ai-assistant/autocomplete/query-terms.png)
+![The query terms matched with your response.](./images/ai-assistant/autocomplete/query-terms.png)
 
-Selecione **[!UICONTROL Veja aqui como obtive os resultados]** para ver uma explicação detalhada, passo a passo, de como o Assistente de IA chegou à sua resposta. Além disso, você também pode exibir a consulta SQL que foi executada para responder à sua pergunta. Esta consulta é somente leitura e não tem suporte para uso no Serviço de consulta.
+Select **[!UICONTROL Here is how I got the results]** to see a detailed, step-by-step explanation of how AI Assistant arrived at its answer. Additionally, you can also view the SQL query that was executed to answer your question. This query is read-only and is not supported for use in Query Service.
 
-![As ferramentas de verificação SQL no Assistente de IA.](./images/ai-assistant/autocomplete/verifications.png)
+![The SQL verification tools on AI Assistant.](./images/ai-assistant/autocomplete/verifications.png)
 
-### Configurar visualização de dados
+### Configure data visualization
 
-Você pode usar os recursos de visualização de dados do Assistente de IA para entender melhor seus dados. Você também pode especificar o tipo de gráfico que deseja usar em sua consulta. Por exemplo, envie uma consulta que diga: **&quot;Mostrar lucro por nome de produto do mês passado (barra)&quot;** para receber um gráfico de barras de lucro do mês passado, organizado por nome de produto.
+You can use AI Assistant&#39;s data visualization capabilities to gain a better understanding of your data. You can also specify the type of graph that you want to use in your query. For example, submit a query that says: **&quot;Show profit by product name for last month (bar)&quot;** to receive a bar graph of profit in the last month, organized by product name.
 
-![Um gráfico de barras exibido no Assistente de IA](./images/ai-assistant/visualization/graph.png)
+![A bar graph displayed on AI Assistant](./images/ai-assistant/visualization/graph.png)
 
-Em seguida, selecione **[!UICONTROL Propriedades]** para alterar o tipo de gráfico e configurar valores para os eixos X e Y.
+Next, select **[!UICONTROL Properties]** to change your graph type and configure values for your X and Y axis.
 
-O Assistente de IA suporta vários tipos de gráficos para visualização de dados. Você pode interagir com todos os tipos de gráfico, passando o cursor do mouse sobre os dados.
+AI Assistant supports several graph types for data visualization. You can interact with all types of graph by hovering over the data.
 
 >[!BEGINTABS]
 
 >[!TAB Linha]
 
-Para exibir um gráfico de linhas, selecione **[!UICONTROL Propriedades]** e **[!UICONTROL Linha]**.
+To view a line graph, select **[!UICONTROL Properties]** and then select **[!UICONTROL Line]**.
 
-![Um gráfico de linhas no Assistente de IA.](./images/ai-assistant/visualization/line.png)
+![A line graph on AI Assistant.](./images/ai-assistant/visualization/line.png)
 
->[!TAB Área]
+>[!TAB Area]
 
 Para exibir um gráfico de área, selecione **[!UICONTROL Propriedades]** e **[!UICONTROL Área]**.
 

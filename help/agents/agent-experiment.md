@@ -1,32 +1,36 @@
 ---
-title: Agente de experimentação
-description: Saiba como usar o agente de experimentação
-source-git-commit: 5694f15d82081eed8e762fea8aabc3da1e265b04
+title: Experimentation Agent
+description: Saiba como usar o Experimentation Agent
+TQID: https://experienceleague.adobe.com/ARh16ylmUDrp---g8KuYNyewIv54IQ53pxoE2g700o0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 3%
+source-wordcount: 555
+ht-degree: 4%
 
 ---
 
-# Agente de experimentação
+# Experimentation Agent
 
 >[!AVAILABILITY]
 >
->O agente de experimentação está disponível para todos os clientes que compraram a licença paga do Journey Optimizer Experimentation Accelerator e se integra perfeitamente à Adobe Target ou à Adobe Journey Optimizer.
+>O Experimentation Agent está disponível para todos os clientes que compraram a licença paga do Journey Optimizer Experimentation Accelerator e se integra perfeitamente ao Adobe Target ou ao Adobe Journey Optimizer.
 >
 >[Saiba mais sobre o Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/pt-br/docs/experimentation-accelerator/using/overview)
 
 ## Visão geral
 
-O **Agente de experimentação** é uma ferramenta alimentada por IA que moderniza como você pode executar e gerenciar experimentos digitais em sites, emails, mensagens por push e aplicativos. Criado com base na plataforma de IA do Adobe Experience Platform e em ferramentas de experimentação, o **Agente de experimentação** ajuda a executar experimentos com mais eficiência, organizar metas comerciais e gerar insights acionáveis, destacando o que funcionou, o que não funcionou e onde experimentar em seguida.
+O **Experimentation Agent** é uma ferramenta alimentada por IA que moderniza como você pode executar e gerenciar experimentos digitais em sites, emails, mensagens por push e aplicativos. Criada com base na plataforma de IA do Adobe Experience Platform e em ferramentas de experimentação, a **Experimentation Agent** ajuda a executar experimentos com mais eficiência, organizar metas comerciais e gerar insights acionáveis, destacando o que funcionou, o que não funcionou e onde experimentar em seguida.
 
-As permissões a seguir para usar totalmente os recursos do Agente de experimentação.
+As permissões a seguir para usar totalmente os recursos do Experimentation Agent.
 
-* **Exibir experimentos**: essa permissão permite que você use o Agente de experimentação para exibir insights sobre o experimento diretamente no Assistente de IA.
+* **Exibir experimentos**: essa permissão permite que você use a Experimentation Agent para exibir insights do experimento diretamente no Assistente de IA.
 
-* **Gerenciar metadados do experimento**: essa permissão permite que você use o Agente de experimentação para criar novos experimentos diretamente no Assistente de IA.
+* **Gerenciar metadados do experimento**: essa permissão permite que você use a Experimentation Agent para criar novos experimentos diretamente no Assistente de IA.
 
-➡️ [Saiba mais na documentação do Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/pt-br/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [Saiba mais na documentação do Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 Como parte do recurso do Experimentation Accelerator, o Agente oferece:
 
@@ -36,11 +40,11 @@ Como parte do recurso do Experimentation Accelerator, o Agente oferece:
 
 * **Oportunidades**: orientação sobre as próximas ações a serem realizadas
 
-![Amostra para o Agente de experimentação](./images/experiment/experiment-agent.png)
+![Amostra para o Experimentation Agent](./images/experiment/experiment-agent.png)
 
 ## Casos de uso
 
-O agente de experimentação melhora cada fase do fluxo de trabalho de experimentação analisando resultados, interpretando conteúdo e sugerindo as próximas etapas.
+O Experimentation Agent aprimora cada fase do fluxo de trabalho de experimentação analisando resultados, interpretando conteúdo e sugerindo as próximas etapas.
 
 Seus recursos podem ser agrupados em cinco funções principais:
 
@@ -83,7 +87,7 @@ As seguintes funcionalidades não são compatíveis no momento:
 
 ## Exemplos de Prompts
 
-Esta é uma lista de amostras de prompts para ajudar você a começar a usar o Agente de experimentação:
+Esta é uma lista de amostras de prompts para ajudar você a começar a usar o Experimentation Agent:
 
 ### Perguntas gerais
 
@@ -110,7 +114,7 @@ Esta é uma lista de amostras de prompts para ajudar você a começar a usar o A
 
 | Prompts |
 |-|
-| O que é o teste `<experiment name>`? |
+| O que é teste de `<experiment name>`? ? |
 | O que aprendemos com o `<experiment name>`? |
 | Pode me dizer por que o tratamento A ganhou? |
 | Quais temas estão em tendência nas variantes vencedoras? |

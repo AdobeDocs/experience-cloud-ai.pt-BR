@@ -4,13 +4,18 @@ description: Guia abrangente para o Journey Agent, permitindo que os usuários c
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: aba0b2f7f819f762c336c4dfeb952326a0814800
+TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: 2655
 ht-degree: 14%
 
 ---
-
 
 # Journey Agent: visão geral e guia do usuário
 
@@ -203,52 +208,52 @@ Os seguintes recursos são compatíveis com a Criação de conteúdo de canal:
 
 As seguintes funcionalidades não são compatíveis no momento:
 
-- **Verificações de alinhamento da marca e qualidade do conteúdo**
-- **Insira nós de conteúdo diretamente na tela de jornada**
-- **Importação de modelo**
+- **Brand alignment and content quality checks**
+- **Insert content nodes directly into journey canvas**
+- **Template import**
 
 ## Exemplos de prompts
 
-### Geração de conteúdo
+### Content generation
 
-&quot;Gerar conteúdo de email para minha jornada de boas-vindas. Crie um email de boas-vindas para novos clientes com um tom amigável e inclua uma oferta de desconto de 10%.&quot;
+&quot;Generate email content for my welcome journey. Create a welcome email for new customers with a friendly tone and include a 10% discount offer.&quot;
 
-&quot;Adicionar conteúdo para email do canal da minha jornada de boas-vindas.&quot;
+&quot;Add content for channel email for my welcome journey.&quot;
 
-&quot;Gerar uma notificação por push para minha jornada de visita à loja. Crie uma mensagem de boas-vindas que incentive os clientes a fazer o check-in e receber uma oferta especial.&quot;
+&quot;Generate a push notification for my store visit journey. Create a welcome message that encourages customers to check in and receive a special offer.&quot;
 
-&quot;Gerar conteúdo de SMS para minha jornada acionada por evento. Crie uma mensagem curta notificando os clientes sobre uma venda rápida com um call-to-action.&quot;
+&quot;Generate SMS content for my event-triggered journey. Create a short message notifying customers about a flash sale with a call-to-action.&quot;
 
-### Seleção de modelo
+### Template selection
 
-&quot;Mostre-me os modelos de email disponíveis para a minha jornada de campanha sazonal.&quot;
+&quot;Show me available email templates for my seasonal campaign journey.&quot;
 
-&quot;Selecione um modelo para meu email com um design moderno e limpo.&quot;
+&quot;Select a template for my email that has a modern, clean design.&quot;
 
-### Edição e refinamento de conteúdo
+### Content editing and refinement
 
-&quot;Abra o conteúdo do email no Designer de Conteúdo para que eu possa personalizar o design.&quot;
+&quot;Open the email content in Content Designer so I can customize the design.&quot;
 
-&quot;Gere novamente o conteúdo da notificação por push com um tom mais casual.&quot;
+&quot;Regenerate the push notification content with a more casual tone.&quot;
 
-&quot;Atualize o conteúdo do email para incluir um código promocional.&quot;
+&quot;Update the email content to include a promotional code.&quot;
 
 ## Práticas recomendadas
 
 ### Solicitação de práticas recomendadas
 
-1. **Seja específico**: forneça detalhes claros sobre o tipo de conteúdo, o tom, o público-alvo e as principais mensagens.
-1. **Especificar Canal**: indique claramente para qual canal você está criando conteúdo (email, push, SMS).
-1. **Definir Tom**: especifique o tom desejado (amigável, formal, casual, urgente).
-1. **Iterar e Refinar**: use a ação de regeneração para refinar o conteúdo até que ele atenda aos seus requisitos.
+1. **Be Specific**: Provide clear details about the content type, tone, target audience, and key messaging.
+1. **Specify Channel**: Clearly indicate which channel you are creating content for (email, push, SMS).
+1. **Define Tone**: Specify the desired tone (friendly, formal, casual, urgent).
+1. **Iterate and Refine**: Use the regenerate action to refine content until it meets your requirements.
 
-## Análise de Jornada: casos de uso, habilidades agênicas e guia do usuário
+## Journey Analyze: Use Cases, Agentic Skills and User Guide
 
 ## Visão geral
 
 O Journey Agent permitirá que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com o Journey Agent, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e/ou público-alvo, detectar pontos de abandono de usuários em uma jornada e fornecer insights ou recomendações. Ele capacita profissionais de marketing a tomar decisões baseadas em dados, melhorar o engajamento do cliente e simplificar a orquestração da jornada.
 
-Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/pt-br/slides/journey-agent-overview).
+Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
