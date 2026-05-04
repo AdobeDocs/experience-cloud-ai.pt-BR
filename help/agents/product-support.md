@@ -1,18 +1,11 @@
 ---
 title: Agente de suporte ao produto
 description: Saiba como é possível utilizar o Agente de suporte ao produto no Assistente de IA para simplificar a solução de problemas e o processo de arquivamento de tíquetes de suporte ao cliente.
-TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ---MdK7JzOKF4EzJra3mZjNhpwZ-o
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+TQID: "https://experienceleague.adobe.com/SKcxvhwgLhbCjQ---MdK7JzOKF4EzJra3mZjNhpwZ-o"
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 2dd1e9c1d31cd72cfb6fb6fcf57b8b79d05b99b2
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -68,5 +61,5 @@ Após concluir essas etapas, qualquer administrador de suporte da organização 
 
 Para obter mais informações, assista ao vídeo a seguir para saber como você pode usar o Agente de suporte do produto para solucionar problemas com facilidade sem sair dos fluxos de trabalho.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443188?captions=por_br&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443183?learn=on)
 
