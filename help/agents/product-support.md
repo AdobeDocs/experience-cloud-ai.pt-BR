@@ -1,7 +1,7 @@
 ---
 title: Agente de suporte ao produto
 description: Saiba como é possível utilizar o Agente de suporte ao produto no Assistente de IA para simplificar a solução de problemas e o processo de arquivamento de tíquetes de suporte ao cliente.
-TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ---MdK7JzOKF4EzJra3mZjNhpwZ-o
+TQID: "https://experienceleague.adobe.com/SKcxvhwgLhbCjQ---MdK7JzOKF4EzJra3mZjNhpwZ-o"
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 role_v2:
@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+source-git-commit: 2dd1e9c1d31cd72cfb6fb6fcf57b8b79d05b99b2
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
