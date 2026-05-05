@@ -31,7 +31,7 @@ Para usar o Field Discovery Agent, verifique se você tem o seguinte:
 - A organização e a sandbox corretas
 - Acesso aos esquemas e conjuntos de dados que você pretende consultar
 
-A familiaridade básica com esquemas XDM e como os campos são usados na segmentação ou em workflows de dados pode ajudar você a interpretar resultados com mais eficiência. Para obter mais informações, consulte a [visão geral do XDM](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/home) e a [documentação do Editor de esquemas](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui).
+A familiaridade básica com esquemas XDM e como os campos são usados na segmentação ou em workflows de dados pode ajudar você a interpretar resultados com mais eficiência. Para obter mais informações, consulte a [visão geral do XDM](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/home) e a [documentação do Editor de esquemas](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/tutorials/create-schema-ui).
 
 Para obter instruções sobre como habilitar o acesso ao Assistente de IA e conceder as permissões necessárias, consulte o [guia de acesso do Agent Orchestrator](./agent-orchestrator.md#access).
 
@@ -81,7 +81,7 @@ Juntamente com cada sugestão de campo, o Field Discovery Agent supera valores d
 >
 >Os exemplos de valores podem conter PII. Não os compartilhe fora de workflows internos seguros.
 
-Os valores de amostra são visíveis somente para campos nas permissões de acesso do conjunto de dados. Para obter informações sobre governança de dados e restrições de uso no Experience Platform, consulte a [visão geral sobre governança de dados](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/home).
+Os valores de amostra são visíveis somente para campos nas permissões de acesso do conjunto de dados. Para obter informações sobre governança de dados e restrições de uso no Experience Platform, consulte a [visão geral sobre governança de dados](https://experienceleague.adobe.com/pt-br/docs/experience-platform/data-governance/home).
 
 Se nenhum valor de amostra for exibido para um campo, ele poderá estar vazio na sandbox atual ou as permissões talvez não incluam acesso ao conjunto de dados subjacente. Campos com alta cardinalidade (como campos de identificador ou UUID) também podem não retornar valores de amostra representativos. Os valores de amostra são agregados e baseados em frequência e não são rastreáveis a perfis individuais.
 
@@ -213,7 +213,7 @@ Se você tiver acesso para edição de esquemas, poderá melhorar a qualidade do
 - Adicionar descrições de campo sempre que possível.
 - Associar campos a conjuntos de dados ativos em vez de deixá-los como definições somente de esquema.
 
-Para obter orientação sobre como editar nomes para exibição de campo e descrições no Editor de Esquemas, consulte [Criar e editar esquemas na interface](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas).
+Para obter orientação sobre como editar nomes para exibição de campo e descrições no Editor de Esquemas, consulte [Criar e editar esquemas na interface](https://experienceleague.adobe.com/pt-br/docs/experience-platform/xdm/ui/resources/schemas).
 
 Se você não tiver acesso para edição de esquemas e os resultados forem consistentemente ruins, entre em contato com o administrador do Experience Platform ou com a equipe de engenharia de dados para revisar os metadados de campo dos esquemas com os quais você trabalha.
 
