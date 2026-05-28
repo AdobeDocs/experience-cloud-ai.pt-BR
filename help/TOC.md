@@ -5,10 +5,10 @@ user-guide-description: Saiba como usar o Assistente de IA para acelerar o fluxo
 description: Saiba mais sobre o Assistente de IA na Experience Cloud. Aprimore seu conhecimento do produto e obtenha insights operacionais com a IA na Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: b4d8c83cca73a19e1fe229c8cec03caee16bcd8c
+source-git-commit: ba2c78d3c5e48155f6b2290ad59261a161fb107d
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 56%
+source-wordcount: '103'
+ht-degree: 53%
 
 ---
 
@@ -33,4 +33,5 @@ ht-degree: 56%
    - [Avaliação de agentes](./agents/trial.md)
    - Engenharia de dados {#data-engineering}
       - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
-
+- MCP {#mcp}
+   - [REAL-TIME CDP MCP](./mcp/rtcdp-mcp.md)
