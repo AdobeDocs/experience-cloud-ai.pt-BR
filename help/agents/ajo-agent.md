@@ -5,34 +5,15 @@ solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
 TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: d209365776b2467f5230fa2cc9a3a4534eb57328
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: f68659190b3333b918e6d5d5aaec37d1f9a28d49
 workflow-type: tm+mt
-source-wordcount: 2687
-ht-degree: 14%
+source-wordcount: 3361
+ht-degree: 11%
 
 ---
 
@@ -47,11 +28,17 @@ ht-degree: 14%
 
 O Journey Agent permite que os usuários do Journey Optimizer criem, analisem e otimizem jornadas de marketing usando uma interface de linguagem natural. Com o Journey Agent, profissionais de marketing podem criar jornadas rapidamente, detectar e resolver conflitos de cronograma ou público-alvo, analisar o desempenho e os pontos de desistência e identificar as jornadas de melhor desempenho para replicá-lo em campanhas futuras. Ele capacita os profissionais a tomar decisões orientadas por dados, melhorar o envolvimento do cliente e simplificar a orquestração de jornadas.
 
-O Journey Agent consiste em três tarefas principais a serem realizadas:
+O Journey Agent consiste em quatro tarefas principais a serem realizadas:
 
 - **Criação de Jornada**: criar e configurar jornadas de marketing por meio de prompts de linguagem natural
 - **Criação de Conteúdo de Canal**: gere, edite e gerencie conteúdo específico de canal (email, push, SMS) para jornada usando a geração de conteúdo habilitado por IA
 - **Analisar Jornada**: analise jornadas, detecte problemas, descubra insights e otimize o engajamento do cliente
+
+Além disso, a **Simulação de Jornada** é um recurso do Journey Optimizer que inclui o [Simulação de Jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), uma habilidade agêntica no produto, não conversacional, com três recursos:
+
+- Gerar usuários simulados
+- Gerar valores de evento
+- Simulação rápida
 
 ## Jornada Criar: Casos de uso, habilidades de agente e Guia do usuário
 
@@ -277,7 +264,7 @@ As seguintes funcionalidades não são compatíveis no momento:
 
 O Journey Agent permitirá que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com o Journey Agent, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e/ou público-alvo, detectar pontos de abandono de usuários em uma jornada e fornecer insights ou recomendações. Ele capacita profissionais de marketing a tomar decisões baseadas em dados, melhorar o engajamento do cliente e simplificar a orquestração da jornada.
 
-Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/pt-br/slides/journey-agent-overview).
+Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -419,8 +406,82 @@ Para maximizar a eficácia do Jornada Analyze, siga estas práticas recomendadas
 - **Monitore regularmente**: agende revisões regulares do desempenho da jornada para identificar tendências e anomalias.
 - **Otimize a segmentação**: mantenha uma segmentação de público-alvo equilibrada para evitar fadiga e maximizar o engajamento.
 
-## Slides e apresentações
+## Jornada Simular: Casos de uso, Habilidades agênicas e Guia do usuário
 
->[!NOTE]
->
->Os slides e o material de apresentação do Journey Agent estarão disponíveis aqui. Verifique novamente em breve se há atualizações.
+## Visão geral
+
+>[!BEGINSHADEBOX]
+
+A Simulação de Jornada está disponível para todos os clientes do Journey Optimizer. O Jornada Simulate, a habilidade agêntica no produto dentro do Jornada Simulation, está disponível para clientes que fazem parte do programa Agent Orchestrator Explorer e requer pelo menos uma das seguintes permissões:
+
+- **Simular jornadas**: execute fluxos de trabalho de simulação a partir da tela de jornada.
+
+- **Publicar jornadas**: publique jornadas, incluindo fluxos que usam simulação antes da ativação.
+
+- **Aprovar e Publicar jornadas**: aprove e publique jornadas quando sua organização usar fluxos de trabalho de aprovação.
+
+Para usar a IA em **[!UICONTROL Simulação]** (**[!UICONTROL Simulação rápida]**, gerando usuários simulados com IA, **[!UICONTROL Gerar valores de evento]**), os usuários exigem a permissão **[!UICONTROL Gerar conteúdo]** do recurso **[!UICONTROL Assistente de IA]**.
+
+[Saiba mais sobre permissões](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/administration/permissions).
+
+>[!ENDSHADEBOX]
+
+A Simulação de jornada é um recurso do Journey Optimizer que permite aos usuários do Journey Optimizer testar e validar com segurança as jornadas de marketing antes da ativação. No Jornada Simulation, o Jornada Simulate é uma habilidade agêntica no produto, não uma habilidade conversacional, que automatiza e auxilia o processo de teste diretamente da tela de jornada.
+
+O Jornada Simulate inclui três recursos:
+
+- Gerar usuários simulados
+- Gerar valores de evento
+- Simulação rápida.
+
+Juntos, eles preenchem a lacuna entre a criação e a ativação de jornadas, gerando confiança na lógica da jornada e reduzindo o risco de erros pós-lançamento.
+
+## Casos de uso
+
+### Principais casos de uso para o Jornada Simulate
+
+O Jornada Simulate oferece três recursos que podem ser aproveitados para reduzir o tempo de teste e melhorar a qualidade da jornada antes da ativação:
+
+**Gerando usuários simulados**
+
+- Gerar automaticamente usuários simulados com base em caminhos de jornada e atributos necessários.
+- Crie usuários simulados que cubram todas as ramificações e condições em uma jornada, incluindo endereços de execução (email, push, SMS).
+- Atualize os atributos do usuário simulados sob demanda para refinar os cenários de teste.
+- Verifique se todas as ramificações de jornada estão cobertas atribuindo o usuário simulado correto a cada caminho.
+
+**Gerando valores de evento**
+
+- Gerar valores para eventos usados em uma jornada para orientar a execução de testes por caminhos específicos.
+- Defina valores de atributo de evento que acionam as condições e ramificações desejadas durante a simulação.
+
+**Simulação rápida**
+
+- Inicie a simulação da jornada e acione as execuções de teste de todos os usuários simulados necessários para testar todos os caminhos de uma jornada, em uma única interação.
+- Visualize como os usuários simulados fluem por uma jornada, passo a passo, incluindo caminhos de ramificação e lógica condicional.
+- Identifique quais fluxos de usuário simulados por qual caminho e por quê, com uma passagem detalhada nó por nó.
+- Revise o relatório de simulação no final de uma execução na interface do usuário do Journey Optimizer para validar os resultados antes da ativação.
+
+## Habilidades e limitações dentro do escopo
+
+### **No escopo**
+
+Os seguintes recursos são compatíveis com o recurso Simulação de Jornada:
+
+- **Gerenciamento de usuário simulado**: exibir, editar e atualizar atributos de usuário simulados, incluindo endereços de execução e dados de personalização.
+- **Controle de simulação**: inicie e interrompa a simulação de jornada diretamente por meio da experiência no produto de Simulação de Jornada.
+- **Execução de teste**: acione execuções de teste para um ou vários usuários simulados.
+- **Visualização do fluxo de Jornada**: visualize o percurso passo a passo dos usuários simulados pelos nós de jornada, incluindo ramificações, divisões e status do usuário.
+- **Relatórios de simulação**: exibir relatórios ao final de uma simulação executada na interface do Journey Optimizer.
+- **Teste de vários usuários**: execute e visualize testes para vários usuários simulados simultaneamente, abrangendo todas as ramificações de jornada.
+
+Além disso, os seguintes recursos são compatíveis com a habilidade Simular do Jornada:
+
+- **Geração de usuário simulada**: crie usuários simulados com base em caminhos de jornada, perfis de teste existentes ou atributos especificados.
+- **Geração de valor de evento**: gerar e atribuir valores de atributo de evento para impulsionar a execução de testes por meio de caminhos de jornada específicos.
+- **Simulação rápida**: execute uma simulação completa com intervenção mínima. A habilidade gera automaticamente usuários simulados, valores de evento e configurações de teste pré-preenchidas e, em seguida, executa os resultados da jornada e das superfícies para análise.
+
+### **Limitações**
+
+A simulação pode não suportar todas as atividades, canais ou integrações compatíveis com o modo de Teste ou com uma jornada em tempo real, e o comportamento pode mudar conforme o recurso amadurece.
+
+➡️ Saiba mais sobre [Limitações de simulação](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) na documentação do Journey Optimizer.
