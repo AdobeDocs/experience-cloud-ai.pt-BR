@@ -53,7 +53,7 @@ O Journey Agent consiste em quatro tarefas principais a serem realizadas:
 - **Criação de Conteúdo de Canal**: gere, edite e gerencie conteúdo específico de canal (email, push, SMS) para jornada usando a geração de conteúdo habilitado por IA
 - **Analisar Jornada**: analise jornadas, detecte problemas, descubra insights e otimize o engajamento do cliente
 
-Além disso, a **Simulação de Jornada** é um recurso do Journey Optimizer que inclui o [Simulação de Jornada](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), uma habilidade agêntica no produto, não conversacional, com três recursos:
+Além disso, a **Simulação de Jornada** é um recurso do Journey Optimizer que inclui o [Simulação de Jornada](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs), uma habilidade agêntica no produto, não conversacional, com três recursos:
 
 - Gerar usuários simulados
 - Gerar valores de evento
@@ -283,7 +283,7 @@ As seguintes funcionalidades não são compatíveis no momento:
 
 O Journey Agent permitirá que os usuários do Journey Optimizer analisem e otimizem jornadas usando uma interface de linguagem natural. Com o Journey Agent, os profissionais podem identificar e resolver rapidamente conflitos de agendamento e/ou público-alvo, detectar pontos de abandono de usuários em uma jornada e fornecer insights ou recomendações. Ele capacita profissionais de marketing a tomar decisões baseadas em dados, melhorar o engajamento do cliente e simplificar a orquestração da jornada.
 
-Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+Saiba mais e descubra o agente rapidamente nesta [visão geral](https://experienceleague.adobe.com/pt-br/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
@@ -503,4 +503,4 @@ Além disso, os seguintes recursos são compatíveis com a habilidade Simular do
 
 A simulação pode não suportar todas as atividades, canais ou integrações compatíveis com o modo de Teste ou com uma jornada em tempo real, e o comportamento pode mudar conforme o recurso amadurece.
 
-➡️ Saiba mais sobre [Limitações de simulação](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) na documentação do Journey Optimizer.
+➡️ Saiba mais sobre [Limitações de simulação](https://experienceleague.adobe.com/pt-br/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations) na documentação do Journey Optimizer.
