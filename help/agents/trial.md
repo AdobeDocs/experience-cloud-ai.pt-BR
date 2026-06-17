@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: e463f08590d0d44d286e3ce69e57607d35e74489
+source-git-commit: 3f67508410c0a41a8edb6f22f20f4c25709df9f7
 workflow-type: tm+mt
 source-wordcount: 1243
 ht-degree: 4%
@@ -40,6 +40,8 @@ A Adobe determinará sua qualificação para a avaliação a seu critério exclu
 
 Os clientes qualificados recebem um direito único inicial de até 10.000 créditos de IA para usar em qualquer combinação de trabalhos (dependendo de sua(s) licença(s) existente(s) para aplicativos da Experience Cloud) listados na [Tabela de consumo de crédito de IA](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/ai-credit-consumption). Você pode rastrear seus créditos de IA usando o painel de uso de licença na interface do usuário do Adobe Experience Platform. Para obter mais informações, leia a [documentação do painel de uso da licença](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dashboards/guides/license-usage).
 
+O painel Monitoramento de IA agente oferece visibilidade clara de como a IA agente está sendo adotada e usada em toda a organização. Como usuário autorizado, você pode rastrear facilmente o engajamento, coletar feedback, monitorar o uso de crédito da IA e revisar as métricas principais. Use esses insights para descobrir oportunidades de otimização e apoiar seus esforços de governança e adoção. Para saber mais, visite o [Guia de Monitoramento de Uso de IA Agênica](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/monitoring).
+
 >[!IMPORTANT]
 >
 >Os Créditos de IA existem apenas para a duração da avaliação e **não são transferidos** se você licenciar Créditos de IA adicionais antes de usar o direito total de 10.000 Créditos de IA.
@@ -51,8 +53,6 @@ A avaliação termina assim que você consumir o direito único inicial de 10.00
 Os usuários dos clientes qualificados terão acesso ao AI Assistant e aos Agentes como parte da avaliação, portanto, nenhuma ação é necessária. Os agentes da Experience Platform são orientados pela entrada e pela supervisão do usuário. Os agentes também respeitam os controles de acesso em nível de produto definidos anteriormente, de modo que os usuários só podem executar tarefas ou ações para as quais têm permissões nos produtos subjacentes da Experience Cloud aplicáveis. Se você quiser recusar o acesso a esses recursos do Agente e desabilitar o acesso de avaliação, envie uma solicitação para [aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com).
 
 Depois de ter acesso, navegue até a página inicial da Adobe Experience Cloud para começar a usar o Assistente de IA. Você pode usar os [prompts de descoberta](../ai-assistant/ai-assistant-ui.md#discovery-prompts) para exibir sugestões de prompts e fluxos de trabalho comuns. Use esse recurso para ajudar a acelerar a integração com o Assistente de IA. Além disso, leia a [biblioteca de prompts](../ai-assistant/prompt-library.md) para obter uma variedade de prompts que você pode usar com agentes diferentes. Para obter informações mais abrangentes, leia o [Guia da interface do usuário do Assistente de IA](../ai-assistant/ai-assistant-ui.md).
-
-O painel Monitoramento de IA agente oferece visibilidade clara de como a IA agente está sendo adotada e usada em toda a organização. Como usuário autorizado, você pode rastrear facilmente o engajamento, coletar feedback, monitorar o uso de crédito da IA e revisar as métricas principais. Use esses insights para descobrir oportunidades de otimização e apoiar seus esforços de governança e adoção. Para saber mais, visite o [Guia de Monitoramento de Uso de IA Agênica](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/monitoring).
 
 Para obter informações sobre os agentes disponíveis, leia a [visão geral do Agent Orchestrator](agent-orchestrator.md).
 
