@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: e385f60b8c55779b636dcc494fced27bc63d1eb3
+source-git-commit: e463f08590d0d44d286e3ce69e57607d35e74489
 workflow-type: tm+mt
 source-wordcount: 1243
 ht-degree: 4%
@@ -88,7 +88,7 @@ A versão de avaliação não requer nenhuma compra adicional. Não há convers�
 
 Você pode rastrear seus créditos de IA usando o painel de uso de licença na interface do usuário do Adobe Experience Platform. Para obter mais informações, leia a [documentação do painel de uso da licença](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dashboards/guides/license-usage). Use o painel para exibir o uso e os relatórios dos seus créditos de IA. Somente administradores e usuários com as permissões apropriadas podem exibir suas informações de uso.
 
-Você também pode usar o painel Monitoramento de IA agente para obter o insight sobre a adoção, o envolvimento, o feedback e o uso do crédito de IA agente em sua organização. Os usuários autorizados podem usar o painel para rastrear métricas principais, identificar oportunidades de otimização e dar suporte a iniciativas de governança e adoção. Para obter mais informações, leia o manual sobre [Monitoramento de IA de agente](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/monitoring).
+Você também pode usar o painel Monitoramento de IA agente para obter o insight sobre a adoção, o envolvimento, o feedback e o uso do crédito de IA agente na organização. Os usuários autorizados podem usar o painel para rastrear métricas principais, identificar oportunidades de otimização e dar suporte a iniciativas de governança e adoção. Para obter mais informações, leia o manual sobre [Monitoramento de IA de agente](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/monitoring).
 
 ### O que acontece depois que o julgamento termina?
 
