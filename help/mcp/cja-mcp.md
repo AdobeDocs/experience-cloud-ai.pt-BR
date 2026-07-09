@@ -84,11 +84,11 @@ As permissões do produto ainda se aplicam. Sua conta deve ser capaz de visualiz
 
 **Visão geral**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486313/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486319/?captions=por_br&learn=on&enablevpops)
 
 **Em ação**
 
->[!VIDEO](https://video.tv.adobe.com/v/3486314/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3486330/?captions=por_br&learn=on&enablevpops)
 
 ## Mais informações {#mcp-more}
 
