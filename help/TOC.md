@@ -5,10 +5,10 @@ user-guide-description: Saiba como usar o Assistente de IA para acelerar o fluxo
 description: Saiba mais sobre o Assistente de IA na Experience Cloud. Aprimore seu conhecimento do produto e obtenha insights operacionais com a IA na Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: f82d4d72fb14600aa5cb5113e47cbb08c1989076
+source-git-commit: 9099afedd6f090a2cab2f865ab06a2be5448b06f
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 46%
+source-wordcount: '171'
+ht-degree: 33%
 
 ---
 
@@ -36,7 +36,18 @@ ht-degree: 46%
    - Engenharia de dados {#data-engineering}
       - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-   - [REAL-TIME CDP MCP](./mcp/rtcdp-mcp.md)
+   - [Adobe CX Enterprise MCP](./mcp/overview.md)
+   - Introdução {#mcp-get-started}
+      - [Acesse as ferramentas do CX Enterprise MCP](./mcp/access.md)
+      - [Instalar o CX Enterprise MCP](./mcp/install.md)
+      - [Ferramentas de contexto de sessão no CX Enterprise MCP](./mcp/context-tools.md)
+   - Ferramentas do produto {#mcp-product-tools}
+      - [Ferramentas do Real-Time CDP](./mcp/rtcdp-mcp.md)
+      - [Ferramentas do Experience Platform](./mcp/aep-mcp.md)
+      - [Ferramentas do Journey Optimizer](./mcp/ajo-mcp.md)
+      - [Ferramentas do Customer Journey Analytics](./mcp/cja-mcp.md)
+      - [Ferramentas do Adobe Analytics](./mcp/analytics-mcp.md)
+      - [Workfront](https://experienceleague.adobe.com/pt-br/docs/workfront/using/basics/workfront-mcp-server/workfront-mcp-server-overview)
 - Colaborador {#coworker}
    - {hide-from-toc}[Chat do Colaborador no Playground](./coworker/playground-coworker-chat.md)
    - {hide-from-toc}[Validar dados de migração do AA para o CJA](./coworker/data-validation-aa-cja.md)
