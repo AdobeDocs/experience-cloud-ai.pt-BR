@@ -1,10 +1,10 @@
 ---
 title: Validar dados com o Colaborador ao atualizar do Adobe Analytics para o Customer Journey Analytics
 description: Saiba como os administradores do Analytics usam o recurso de validação de dados do CX Enterprise Co-worker para comparar os dados do Adobe Analytics e do Customer Journey Analytics durante a migração.
-hold: true
-source-git-commit: 850bfef76e3c3e081f9860b9757e5e5128383f76
+hide: true
+source-git-commit: 1d0c3b73a3a9f18440920a19caa4645243e73730
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,10 @@ Você não precisa saber com antecedência como sua implementação foi projetad
 
 1. O processo de configuração inclui as perguntas da tabela abaixo. Para cada pergunta, selecione uma resposta e, em seguida, [!UICONTROL **Enviar**].
 
+   >[!NOTE]
+   >
+   >É possível alterar qualquer uma dessas seleções posteriormente na mesma conversa. Por exemplo, peça ao agente para alterar o conjunto de relatórios ou a visualização de dados, e o agente repete apenas as etapas necessárias para atualizar essa seleção, sem reiniciar todo o processo de configuração.
+
    | Pergunta | Contexto adicional |
    |---------|----------|
    | [!UICONTROL **Selecione sua empresa do Analytics**] | Esta é a sua empresa de logon na Adobe Analytics. |
@@ -67,25 +71,70 @@ Você não precisa saber com antecedência como sua implementação foi projetad
    |---------|----------|
    | [!UICONTROL **Comparação de métrica única**] | Comparar a tendência de uma métrica entre o Adobe Analytics e o Customer Journey Analytics. Use-a quando quiser verificar rapidamente uma métrica específica, como exibições de página ou visitas. |
    | [!UICONTROL **Comparação de dimensões únicas**] | Compare o detalhamento de uma única dimensão entre o Adobe Analytics e o Customer Journey Analytics. Use isso quando suspeitar de uma diferença de mapeamento ou classificação para uma dimensão específica. |
-   | [!UICONTROL **Auditoria completa do conjunto de relatórios e da visualização de dados**] | Comparar até 20 métricas e dimensões em uma única execução. Use-a quando quiser ter uma visão abrangente da integridade geral da migração. |
+   | [!UICONTROL **Auditoria completa do conjunto de relatórios e da visualização de dados**] | Compare até 40 métricas e 10 dimensões em uma única execução. Use-a quando quiser ter uma visão abrangente da integridade geral da migração. |
+
+
 
 1. Continue com a seguinte seção, [Revise a análise](#review-the-analysis).
 
 ## Revisar a análise
 
-1. Selecione cada uma das guias a seguir para revisar a análise:
+1. Selecione a guia [!UICONTROL **Taxa de correspondência geral**] para exibir uma porcentagem que indique a proximidade entre os dados do conjunto de relatórios do Adobe Analytics e os da exibição de dados do Customer Journey Analytics. Essa pontuação sempre aparece primeiro, antes de qualquer outro resultado. Ela pesa cada métrica comparada e dimensão igualmente para garantir que métricas de alto volume, como exibições de página, não distorçam a pontuação.
 
-   | Guia Revisão de análise | Descrição |
-   |---------|----------|
-   | [!UICONTROL **Taxa de correspondência geral**] | Uma porcentagem que indica com que proximidade os dados do conjunto de relatórios do Adobe Analytics correspondem aos da visualização de dados do Customer Journey Analytics. |
-   | [!UICONTROL **Principais insights**] | Principais insights descobertos durante a análise. |
-   | [!UICONTROL **Resumo**] | Totais de Adobe Analytics, totais de Customer Journey Analytics, variação total, dias de aprovação e dias críticos. <!--what are these?--> |
-   | [!UICONTROL **Tendência diária**] | Gráfico que mostra uma comparação lado a lado dos dados do Adobe Analytics e do Customer Journey Analytics. |
-   | [!UICONTROL **Detalhes diários**] | <!--what goes here?--> |
+   Use a escala a seguir para interpretar a pontuação:
 
-1. Role para baixo na análise para visualizar padrões adicionais que foram descobertos durante a análise, causas prováveis para esses padrões e ações sugeridas que você pode tomar para resolver qualquer discrepância de dados.
+   | Pontuação | Classificação | O que significa |
+   |---------|----------|----------|
+   | 97%-100% | ![Quadrado verde](./images/data-validation-aa-cja/excellent-square.svg) [!UICONTROL Excelente] | Todas as propriedades são altamente alinhadas. Nenhuma ação necessária. |
+   | 90% a 96% | ![Círculo amarelo](./images/data-validation-aa-cja/good-circle.svg) [!UICONTROL Bom] | Pequenas lacunas estão presentes. Monitore tendências e investigue se elas declinam. |
+   | 75% a 89% | ![Círculo laranja](./images/data-validation-aa-cja/review-circle.svg) [!UICONTROL Revisão] | Existem lacunas significativas. Investigue as causas raiz antes de depender dos dados do Customer Journey Analytics. |
+   | Menos de 75% | ![Círculo vermelho](./images/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Ruim] | Desalinhamento significativo. Execute uma ação imediata antes de usar os dados do Customer Journey Analytics. |
+
+1. Selecione a guia [!UICONTROL **Key insights**] para exibir duas a quatro caixas de texto explicativo curtas, cada uma resumindo uma descoberta da análise em uma única frase. As chamadas de retorno são codificadas por cores de acordo com a gravidade, para que você possa detectar as descobertas mais importantes primeiro.
+
+1. Selecione a guia [!UICONTROL **Resumo**] para exibir os totais de Adobe Analytics, os totais de Customer Journey Analytics, a variação total, os dias decorridos e os dias críticos, em que os dias decorridos e os dias críticos refletem quantos dias no intervalo de datas estão nos status de variação [!UICONTROL **Aprovado**] e [!UICONTROL **Crítico**] descritos abaixo.
+
+1. (Condicional) Ao fazer uma comparação de dimensão única ou de métrica única, você pode visualizar uma comparação lado a lado dos dados do Adobe Analytics e da Customer Journey Analytics na guia [!UICONTROL **Tendência diária**].
+
+   Para métricas, é um gráfico de linhas que compara a tendência diária.
+
+   ![Guia de tendência diária mostrando um gráfico de linhas](./images/data-validation-aa-cja/trend-line.png)
+
+   Para dimensões, é um gráfico de barras que compara os valores principais.
+
+   ![Guia de tendência diária mostrando um gráfico de barras horizontal](./images/data-validation-aa-cja/trend-bar.png)
+
+1. (Condicional) Ao fazer uma comparação de dimensão única ou de métrica única, você pode visualizar os detalhes do nível de linha na guia [!UICONTROL **Detalhes da data**]. Essa tabela lista a data, o valor da Adobe Analytics, o valor da Customer Journey Analytics, o percentual de variação e um selo de status para cada métrica comparada ou valor de dimensão.
+
+   ![Guia de detalhes de data mostrando uma tabela de porcentagens de variação e selos de status](./images/data-validation-aa-cja/date-detail.png)
+
+   As colunas de variação e status usam a seguinte escala:
+
+   | Variância | Status | O que significa |
+   |---------|----------|----------|
+   | Menos de 3% | ![Marca de seleção verde](./images/data-validation-aa-cja/pass-check.svg) [!UICONTROL Aprovado] | Os dados estão bem alinhados. Nenhuma ação necessária. |
+   | 3%-10% | ![Triângulo de aviso amarelo](./images/data-validation-aa-cja/flagged-warning.svg) [!UICONTROL Sinalizador] | Monitore a diferença e investigue se ela continua ou piora. |
+   | Maior que 10% | ![Círculo vermelho](./images/data-validation-aa-cja/critical-circle.svg) [!UICONTROL Crítico] | Investigue imediatamente. Isso geralmente aponta para um esquema, assimilação ou problema de mapeamento. |
+
+1. (Condicional) Ao executar um conjunto de relatórios completo e uma auditoria de visualização de dados, as guias [!UICONTROL **Tendência diária**] e [!UICONTROL **Detalhe diário**] são substituídas por um scorecard que mostra as contagens aprovadas, sinalizadas e críticas, juntamente com tabelas separadas que listam as cinco principais métricas e dimensões com melhor correspondência e as cinco mais baixas.
+
+1. Role para baixo na análise para visualizar padrões e problemas adicionais que foram descobertos durante a análise, causas prováveis para esses padrões e ações sugeridas que você pode tomar para resolver qualquer discrepância de dados.
+
+   >[!NOTE]
+   >
+   >Alguma variação é esperada e não indica um problema com sua migração.
+
+   Problemas comuns incluem:
+
+   * O Adobe Analytics conta visitantes baseados em dispositivos, enquanto o Customer Journey Analytics conta pessoas, usando a compilação de identidade entre dispositivos.
+   * O Adobe Analytics processa dados no momento da coleta, enquanto o Customer Journey Analytics processa dados no momento do relatório.
+   * As definições de sessão são diferentes: as visitas do Adobe Analytics usam um tempo limite fixo, enquanto as sessões do Customer Journey Analytics são configuráveis.
+   * O Adobe Analytics filtra bots por padrão, enquanto a filtragem de bot do Customer Journey Analytics é aceita.
+   * O Adobe Analytics relata os valores ausentes como &quot;Não especificado&quot; ou &quot;Nenhum&quot;, enquanto o Customer Journey Analytics os relata como &quot;Nenhum valor&quot;.
+   * Podem resultar diferenças de canal de marketing das regras de processamento do Adobe Analytics em comparação aos campos derivados do Customer Journey Analytics aplicados retroativamente.
+   * Se os valores de Customer Journey Analytics forem consistentemente aproximadamente o dobro dos valores de Adobe Analytics em todas as métricas, isso geralmente indicará dados duplicados na visualização de dados, em vez de um efeito de identificação.
 
 1. Verifique se as ações sugeridas são válidas e resolva-as no Adobe Experience Platform ou no Adobe Analytics.
 
-1. (Opcional) Continue sua análise analisando outra métrica, analisando outra dimensão ou executando outro relatório com até 20 métricas e dimensões, conforme descrito em [Escolha os dados que serão validados](#choose-the-data-to-validate).
+1. (Opcional) Continue sua análise analisando outra métrica, analisando outra dimensão ou executando outro relatório de até 40 métricas e 10 dimensões, conforme descrito em [Escolha os dados que serão validados](#choose-the-data-to-validate). Não é necessário repetir o processo de configuração para fazer isso; as seleções de empresa, conjunto de relatórios e visualização de dados continuam durante toda a conversa.
 
