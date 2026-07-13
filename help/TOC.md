@@ -5,10 +5,10 @@ user-guide-description: Saiba como usar o Assistente de IA para acelerar o fluxo
 description: Saiba mais sobre o Assistente de IA na Experience Cloud. Aprimore seu conhecimento do produto e obtenha insights operacionais com a IA na Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 9099afedd6f090a2cab2f865ab06a2be5448b06f
+source-git-commit: e5bf7d7ac41af7e373cc9eaef2bd11b2f91f4cd2
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 33%
+source-wordcount: '176'
+ht-degree: 32%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 33%
       - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
    - [Adobe CX Enterprise MCP](./mcp/overview.md)
+   - {hide-from-toc}[MCP beta do Real-Time CDP](./mcp/beta/rtcdp-mcp.md)
    - Introdução {#mcp-get-started}
       - [Acesse as ferramentas do CX Enterprise MCP](./mcp/access.md)
       - [Instalar o CX Enterprise MCP](./mcp/install.md)
