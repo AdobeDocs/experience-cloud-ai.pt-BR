@@ -1,20 +1,20 @@
 ---
-title: Ferramentas do Adobe Analytics no Adobe CX Enterprise MCP
-description: Saiba quais ferramentas do Adobe Analytics estão disponíveis por meio do Adobe CX Enterprise MCP.
-source-git-commit: df05761a8555950366fcaa201ce9c0fd47bb0802
+title: Ferramentas do Adobe Analytics no Adobe CX Co-worker Gateway
+description: Saiba quais ferramentas do Adobe Analytics estão disponíveis por meio do Adobe CX Co-worker Gateway.
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 4%
 
 ---
 
-# Ferramentas do Adobe Analytics no Adobe CX Enterprise MCP {#aa-mcp}
+# Ferramentas do Adobe Analytics no Adobe CX Co-worker Gateway {#aa-mcp}
 
-Você pode usar as ferramentas do Adobe Analytics para explorar conjuntos de relatórios, descobrir dimensões e métricas, executar relatórios e gerenciar componentes de análise selecionados de um cliente compatível com MCP. Essas ferramentas estão disponíveis por meio do [Adobe CX Enterprise MCP](overview.md) unificado, quando sua conta tiver a licença e as permissões necessárias da Adobe Analytics.
+Você pode usar as ferramentas do Adobe Analytics para explorar conjuntos de relatórios, descobrir dimensões e métricas, executar relatórios e gerenciar componentes de análise selecionados de um cliente compatível com MCP. Essas ferramentas estão disponíveis por meio do [Adobe CX Co-worker Gateway](overview.md) unificado, quando sua conta tem a licença e as permissões necessárias da Adobe Analytics.
 
 >[!AVAILABILITY]
 >
->As ferramentas do Analytics estão disponíveis para clientes com uma licença da Adobe Analytics. O acesso é controlado pela permissão **Acesso ao MCP** no Adobe Admin Console. Leia as [Ferramentas de MCP do Access CX Enterprise](access.md) para obter mais informações.
+>As ferramentas do Analytics estão disponíveis para clientes com uma licença da Adobe Analytics. O acesso é controlado pela permissão **Acesso ao MCP** no Adobe Admin Console. Leia as [Ferramentas do CX Co-worker Gateway](access.md) do Access para obter mais informações.
 
 ## Principais recursos {#mcp-capabilities}
 

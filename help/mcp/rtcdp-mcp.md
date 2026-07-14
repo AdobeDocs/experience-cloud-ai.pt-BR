@@ -1,20 +1,20 @@
 ---
 title: Real-Time CDP MCP (Beta)
 description: Saiba como conectar o Adobe Real-Time CDP a clientes MCP usando o servidor MCP.
-source-git-commit: 3e8651b12f4769a819ebb49ddca9d6a158f98e6d
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 3%
 
 ---
 
-# Ferramentas Real-Time CDP no CX Enterprise MCP {#rtcdp-mcp}
+# Ferramentas Real-Time CDP no CX Co-worker Gateway {#rtcdp-mcp}
 
-Você pode usar as ferramentas do produto Real-Time CDP MCP para inspecionar públicos, destinos, origens, namespaces de identidade e integridade da ativação de um cliente compatível com MCP. Essas ferramentas estão disponíveis por meio do [gateway MCP corporativo CX](overview.md) unificado, quando sua organização está habilitada e sua conta de usuário tem as permissões necessárias da Real-Time CDP.
+Você pode usar as ferramentas do produto Real-Time CDP MCP para inspecionar públicos, destinos, origens, namespaces de identidade e integridade da ativação de um cliente compatível com MCP. Essas ferramentas estão disponíveis por meio do [gateway unificado do CX Co-worker Gateway](overview.md), quando sua organização está habilitada e sua conta de usuário tem as permissões necessárias da Real-Time CDP.
 
 >[!AVAILABILITY]
 >
->A ferramenta do produto Real-Time CDP está no Beta. O acesso é apenas por convite e requer a habilitação da organização da Adobe. Consulte [Acessar ferramentas do CX Enterprise MCP](access.md).
+>A ferramenta do produto Real-Time CDP está no Beta. O acesso é apenas por convite e requer a habilitação da organização da Adobe. Consulte [Acessar as ferramentas do CX Co-worker Gateway](access.md).
 
 ## Principais recursos {#mcp-capabilities}
 
