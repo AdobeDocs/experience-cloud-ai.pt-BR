@@ -1,20 +1,20 @@
 ---
-title: Ferramentas de contexto de sessão no CX Enterprise MCP
-description: Saiba mais sobre as principais ferramentas que definem o contexto de organização, sandbox e visualização de dados para todas as chamadas de ferramenta do CX Enterprise MCP.
-source-git-commit: 023a4c15ca787c9b110b52914fd18d0e6eecd23d
+title: Ferramentas de contexto de sessão no CX Co-worker Gateway
+description: Saiba mais sobre as principais ferramentas que definem o contexto de organização, sandbox e visualização de dados para todas as chamadas de ferramenta do CX Co-worker Gateway.
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
 
 ---
 
-# Ferramentas de contexto de sessão no Adobe CX Enterprise MCP {#mcp-core}
+# Ferramentas de contexto de sessão no Adobe CX Co-worker Gateway {#mcp-core}
 
-O Adobe CX Enterprise MCP inclui um conjunto de ferramentas de contexto de sessão que estabelecem a organização da Adobe, a sandbox da Adobe Experience Platform e a visualização de dados da Customer Journey Analytics em que todas as outras ferramentas de produto operam. Não é necessária nenhuma licença ou habilitação adicional — essas ferramentas estão disponíveis para todos os usuários autenticados após a conexão com o [CX Enterprise MCP Server](overview.md).
+O Adobe CX Co-worker Gateway inclui um conjunto de ferramentas de contexto de sessão que estabelecem a organização da Adobe, a sandbox da Adobe Experience Platform e a visualização de dados da Customer Journey Analytics em que todas as outras ferramentas de produtos operam. Não é necessária nenhuma licença ou habilitação adicional — essas ferramentas estão disponíveis para todos os usuários autenticados após a conexão com o [CX Co-worker Gateway server](overview.md).
 
 ## Como o contexto funciona {#mcp-core-how}
 
-O CX Enterprise MCP aplica escopos a cada chamada de ferramenta para uma organização ativa da Adobe. Além disso, os requisitos de contexto dependem do produto:
+O gateway do CX Co-worker inclui cada chamada de ferramenta em uma organização ativa da Adobe. Além disso, os requisitos de contexto dependem do produto:
 
 - **Produtos baseados em Experience Platform** — [Real-Time CDP](rtcdp-mcp.md), [Experience Platform](aep-mcp.md) e [Journey Optimizer](ajo-mcp.md) ferramentas operam em uma sandbox Experience Platform. Definir a sandbox uma vez por sessão com `core-set_sandbox`; todos os três a compartilham.
 - **Outros produtos** — Os produtos não criados no Experience Platform não usam o contexto de sandbox. Por exemplo, as ferramentas do [Customer Journey Analytics](cja-mcp.md) são resolvidas em relação a uma exibição de dados e as ferramentas do [Adobe Analytics](analytics-mcp.md) são resolvidas em relação aos conjuntos de relatórios.
@@ -64,5 +64,5 @@ O cliente chamará as ferramentas apropriadas e confirmará quando o contexto fo
 
 ## Páginas relacionadas {#mcp-core-related}
 
-- [Instalar o Adobe CX Enterprise MCP](install.md) — como conectar seu cliente MCP, incluindo a seção de configuração de contexto do produto.
-- [Acesse as ferramentas do CX Enterprise MCP](access.md) — acesse os requisitos por produto.
+- [Instalar o Adobe CX Co-worker Gateway](install.md) — como conectar seu cliente MCP, incluindo a seção de configuração do contexto do produto.
+- [Acesse as ferramentas do CX Co-worker Gateway](access.md) — acesse os requisitos por produto.

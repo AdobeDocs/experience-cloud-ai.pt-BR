@@ -1,7 +1,7 @@
 ---
-title: Ferramentas do Customer Journey Analytics no Adobe CX Enterprise MCP
-description: Saiba quais ferramentas do Adobe Customer Journey Analytics estão disponíveis por meio do Adobe CX Enterprise MCP.
-source-git-commit: 6c73b4d2e452a82597565d71279df2dba605a977
+title: Ferramentas do Customer Journey Analytics no Adobe CX Co-worker Gateway
+description: Saiba quais ferramentas do Adobe Customer Journey Analytics estão disponíveis por meio do Adobe CX Co-worker Gateway.
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 3%
@@ -9,13 +9,13 @@ ht-degree: 3%
 ---
 
 
-# Ferramentas do Customer Journey Analytics no Adobe CX Enterprise MCP {#cja-mcp}
+# Ferramentas do Customer Journey Analytics no Adobe CX Co-worker Gateway {#cja-mcp}
 
-Use as ferramentas de produto do Customer Journey Analytics para explorar visualizações de dados, descobrir dimensões e métricas, executar relatórios e gerenciar componentes de análise selecionados de um cliente compatível com MCP. Essas ferramentas estarão disponíveis por meio do [CX Enterprise MCP](overview.md) quando sua conta tiver a licença e as permissões necessárias da Customer Journey Analytics.
+Use as ferramentas de produto do Customer Journey Analytics para explorar visualizações de dados, descobrir dimensões e métricas, executar relatórios e gerenciar componentes de análise selecionados de um cliente compatível com MCP. Essas ferramentas estão disponíveis por meio do [CX Co-worker Gateway](overview.md) quando sua conta tem a licença e as permissões necessárias da Customer Journey Analytics.
 
 >[!AVAILABILITY]
 >
->As ferramentas do Customer Journey Analytics estão disponíveis para clientes com uma licença da Customer Journey Analytics. O acesso é controlado pela permissão **Acesso ao MCP** no Adobe Admin Console. Consulte [Acessar ferramentas do CX Enterprise MCP](access.md).
+>As ferramentas do Customer Journey Analytics estão disponíveis para clientes com uma licença da Customer Journey Analytics. O acesso é controlado pela permissão **Acesso ao MCP** no Adobe Admin Console. Consulte [Acessar as ferramentas do CX Co-worker Gateway](access.md).
 
 ## Principais recursos {#mcp-capabilities}
 

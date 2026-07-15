@@ -5,7 +5,7 @@ user-guide-description: Saiba como usar o Assistente de IA para acelerar o fluxo
 description: Saiba mais sobre o Assistente de IA na Experience Cloud. Aprimore seu conhecimento do produto e obtenha insights operacionais com a IA na Experience Cloud.
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: e5bf7d7ac41af7e373cc9eaef2bd11b2f91f4cd2
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 32%
@@ -36,12 +36,12 @@ ht-degree: 32%
    - Engenharia de dados {#data-engineering}
       - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
-   - [Adobe CX Enterprise MCP](./mcp/overview.md)
+   - [Adobe CX Co-worker Gateway](./mcp/overview.md)
    - {hide-from-toc}[MCP beta do Real-Time CDP](./mcp/beta/rtcdp-mcp.md)
    - Introdução {#mcp-get-started}
-      - [Acesse as ferramentas do CX Enterprise MCP](./mcp/access.md)
-      - [Instalar o CX Enterprise MCP](./mcp/install.md)
-      - [Ferramentas de contexto de sessão no CX Enterprise MCP](./mcp/context-tools.md)
+      - [Acesse as ferramentas do CX Co-worker Gateway](./mcp/access.md)
+      - [Instalar o CX Co-worker Gateway](./mcp/install.md)
+      - [Ferramentas de contexto de sessão no CX Co-worker Gateway](./mcp/context-tools.md)
    - Ferramentas do produto {#mcp-product-tools}
       - [Ferramentas do Real-Time CDP](./mcp/rtcdp-mcp.md)
       - [Ferramentas do Experience Platform](./mcp/aep-mcp.md)

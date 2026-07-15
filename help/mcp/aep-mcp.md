@@ -1,7 +1,7 @@
 ---
-title: Ferramentas Adobe Experience Platform no CX Enterprise MCP
-description: Saiba quais ferramentas do Adobe Experience Platform estão disponíveis por meio do CX Enterprise MCP.
-source-git-commit: 152079b15dc0dfd1dbe389fe2d18be0780b5bf71
+title: Ferramentas Adobe Experience Platform no CX Co-worker Gateway
+description: Saiba quais ferramentas do Adobe Experience Platform estão disponíveis por meio do CX Co-worker Gateway.
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '1372'
 ht-degree: 8%
@@ -9,13 +9,13 @@ ht-degree: 8%
 ---
 
 
-# Ferramentas do Adobe Experience Platform no Adobe CX Enterprise MCP {#aep-mcp}
+# Ferramentas do Adobe Experience Platform no Adobe CX Co-worker Gateway {#aep-mcp}
 
-Você pode usar as ferramentas de produto do Adobe Experience Platform para inspecionar esquemas, conjuntos de dados, configuração de governança de dados, recursos do Serviço de consulta e eventos de auditoria de um cliente compatível com MCP. Essas ferramentas estão disponíveis por meio do [Adobe CX Enterprise MCP](overview.md) quando sua organização está habilitada e sua conta de usuário tem as permissões necessárias do Experience Platform.
+Você pode usar as ferramentas de produto do Adobe Experience Platform para inspecionar esquemas, conjuntos de dados, configuração de governança de dados, recursos do Serviço de consulta e eventos de auditoria de um cliente compatível com MCP. Essas ferramentas estão disponíveis por meio do [Adobe CX Co-worker Gateway](overview.md), quando sua organização está habilitada e sua conta de usuário tem as permissões necessárias do Experience Platform.
 
 >[!AVAILABILITY]
 >
->A ferramenta do produto Experience Platform está no Beta. O acesso é apenas por convite e requer a habilitação da organização da Adobe. Consulte [Acessar ferramentas do CX Enterprise MCP](access.md).
+>A ferramenta do produto Experience Platform está no Beta. O acesso é apenas por convite e requer a habilitação da organização da Adobe. Consulte [Acessar as ferramentas do CX Co-worker Gateway](access.md).
 
 ## Resumo
 
