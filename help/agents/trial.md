@@ -40,9 +40,9 @@ A qualificação do cliente para a avaliação fica totalmente a critério da Ad
 Os clientes qualificados recebem um direito único inicial de até 10.000 créditos de IA para usar com:
 
 - Chat do colega de trabalho: entradas inseridas no Chat do colega de trabalho. Por um período introdutório limitado, osinputsconsomem créditos de IA a uma taxa de 25 créditos de IA por entrada. Essa taxa está disponível por um período limitado e está sujeita a alterações.
-- Experience Platform Agents: qualquer combinação de trabalhos executados usando Experience Platform Agents (dependendo de suas licenças existentes para aplicativos do CX Enterprise) listados na [Tabela de Consumo de Crédito de IA](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+- Experience Platform Agents: qualquer combinação de trabalhos executados usando Experience Platform Agents (dependendo de suas licenças existentes para aplicativos do CX Enterprise) listados na [Tabela de Consumo de Crédito de IA](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/ai-credit-consumption).
 
-Você pode rastrear seus créditos de IA usando o painel de uso de licença na interface do usuário do Adobe Experience Platform. Para obter mais informações, leia a [documentação do painel de uso da licença](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage).
+Você pode rastrear seus créditos de IA usando o painel de uso de licença na interface do usuário do Adobe Experience Platform. Para obter mais informações, leia a [documentação do painel de uso da licença](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dashboards/guides/license-usage).
 
 O painel Monitoramento de IA agente oferece visibilidade clara de como a IA agente está sendo adotada e usada em toda a organização. Os usuários autorizados podem rastrear facilmente o engajamento, coletar feedback, monitorar o uso de crédito da IA e revisar as métricas principais. Use esses insights para descobrir oportunidades de otimização e apoiar seus esforços de governança e adoção. Para saber mais, visite o [Guia de Monitoramento de Uso de IA Agênica](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/monitoring).
 
@@ -102,7 +102,7 @@ A versão de avaliação está sendo lançada em fases para que a Adobe possa fo
 
 ### Quantos créditos de IA eu recebo e o que acontece quando esses créditos de IA são usados?
 
-Os clientes qualificados recebem até 10.000 créditos de IA para a avaliação, que são consumidos à medida que o Bate-papo com colegas de trabalho (ou Agentes da Experience Platform) executa tarefas. Observe que esses Créditos de IA só existem durante a experiência de avaliação e não são transferidos se você licenciar Créditos de IA adicionais antes de usar os 10.000 Créditos de IA completos. Para obter mais informações sobre o consumo de Crédito de IA, leia o [Guia de consumo de Crédito de IA e trabalhos do agente](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption).
+Os clientes qualificados recebem até 10.000 créditos de IA para a avaliação, que são consumidos à medida que o Bate-papo com colegas de trabalho (ou Agentes da Experience Platform) executa tarefas. Observe que esses Créditos de IA só existem durante a experiência de avaliação e não são transferidos se você licenciar Créditos de IA adicionais antes de usar os 10.000 Créditos de IA completos. Para obter mais informações sobre o consumo de Crédito de IA, leia o [Guia de consumo de Crédito de IA e trabalhos do agente](https://experienceleague.adobe.com/pt-br/docs/core-services/interface/features/ai-credit-consumption).
 
 ### Isso custa alguma coisa?
 
@@ -110,7 +110,7 @@ Esta versão de avaliação não requer nenhuma compra adicional. Não há conve
 
 ### Quem pode ver o uso e como?
 
-Você pode rastrear seus créditos de IA usando o painel de uso de licença na interface do usuário do Adobe Experience Platform. Para obter mais informações, leia a [documentação do painel de uso da licença](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage). Use o painel para exibir o uso e os relatórios dos seus créditos de IA. Somente administradores e usuários com as permissões apropriadas podem exibir suas informações de uso.
+Você pode rastrear seus créditos de IA usando o painel de uso de licença na interface do usuário do Adobe Experience Platform. Para obter mais informações, leia a [documentação do painel de uso da licença](https://experienceleague.adobe.com/pt-br/docs/experience-platform/dashboards/guides/license-usage). Use o painel para exibir o uso e os relatórios dos seus créditos de IA. Somente administradores e usuários com as permissões apropriadas podem exibir suas informações de uso.
 
 Os clientes permanecem no controle de quem pode ver o uso e os relatórios. Somente administradores e usuários com as permissões apropriadas podem visualizar essas informações.
 
